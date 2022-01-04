@@ -11,9 +11,9 @@ How to get game data from GOG.com
 
 ### Prerequisites
 
-This guide uses [innoextract](https://constexpr.org/innoextract/). Official website has recommendations on how to install it on macOS, for this guide we'll use the Homebrew option, that you need to have [installed](https://docs.brew.sh/Installation) before:
+This guide uses [innoextract](https://constexpr.org/innoextract/). Official website has recommendations on how to install it on macOS, for this guide we'll use the Homebrew option, that you need to have [installed](https://docs.brew.sh/Installation):
 
-- Open [Terminal.app]
+- Open Terminal.app
 - Copy `brew install innoextract`, paste into Terminal and execute.
 - Verify it's installed by running `innoextract` in the Terminal. It should output something like:
 
@@ -37,7 +37,7 @@ Try the --help (-h) option for usage information.
 
 When a game ships Linux installers you can unpack those without any innoextract. Here is how to do that:
 
-1. 1. Navigate to your [GOG.com account](https://www.gog.com/account);
+1. Navigate to your [GOG.com account](https://www.gog.com/account);
 2. Find the game you're interested in and download Linux installer files (usually named `<game_name>_<version>.sh`);
 3. (We'll assume you've downloaded files to `~/Downloads` folder);
     - HINT: unzip will extract installers into the current directory, so consider moving your installer files into a new, game-specific directory you'll need to create under `~/Downloads`.
