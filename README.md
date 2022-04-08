@@ -18,6 +18,7 @@ Happy gaming!
 
 ## Game-specific guides
 
+- [Ion Fury](games/ion_fury.md)
 - [Quake](games/quake.md)
 
 ## Frequently asked questions
