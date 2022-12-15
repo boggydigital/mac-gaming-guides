@@ -13,11 +13,9 @@ On August 19, 2021 Quake [has been updated](https://store.steampowered.com/news/
 
 To get game data for this version, [download the game from Steam](../common/steam.md) and use app-id: `2310`.
 
-### Get Quake original Version from GOG.com
+### Get Quake Enhanced from GOG.com
 
-At the moment, GOG.com Quake has not been updated to the enhansed version. [The update has been announced](https://www.gog.com/forum/general/quake_enhanced_update), and might be released in the future.
-
-To get original Quake game data, [download the game from GOG.com](../common/gog.md).
+On December 15, 2022 Quake has been updated to the enhanced version on GOG. You have a choice to download enhanced (called `Quake Enhanced`) or original version of Quake (called `Quake`) [from your account](../common/gog.md).
 
 ## Run Quake on macOS
 
