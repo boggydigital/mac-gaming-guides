@@ -10,7 +10,8 @@ This guide will provide a step-by-step instruction on updating the game to 64-bi
 Here are the steps required to update the game:
 
 - [Download and install the game](#download-and-install-the-game)
-- [Determine Unity version and download the player](#determine-unity-version-and-download-the-player)
+- [Determine Unity version](#determine-unity-version)
+- [Download Unity](#download-unity-)
 - [Prepare standalone player files](#prepare-standalone-player-files)
 - [Update the game](#update-and-run-the-game)
 - (Optionally) [Troubleshoot common problems](#troubleshoot-common-problems)
@@ -36,25 +37,53 @@ NOTE: if a game is a `.pkg` installer, most likely, you don't need to do any of 
 - Drag that game package out (NOTE: often this package will have the same name as the GOG.com package, so you might need to drag somewhere else, like `~/Downloads`)
 - Congratulations! - now you have the game package ready to be updated! Feel free to discard that GOG.com package wrapper if you don't need it anymore.
 
-## Determine Unity version and download the player
+## Determine Unity version
+
+### Method 1: Using Info.plist
 
 - Navigate to the folder where the game is installed
 - Locate the game icon at this new location and Right-click / Ctrl+click, them select `Show Package Contents`
 - Open `Contents`/`Info.plist` (NOTE: you might use `TextEdit.app` or any other text editor)
 - Look for the string that starts with: `Unity Player version X.Y.Z`, for example: `Unity Player version 5.6.4p4 (72f24c04957f). (c) 2017 Unity Technologies ApS. All rights reserved.`
 - That version is what we need, in the example above that's `5.6.4p4` (NOTE: Unity added 64-bit support at version 4.2, so games before that can't be updated)
-- Find an installer for the correct Unity version:
 
-1) Try to construct a URL like `http://download.unity3d.com/download_unity/unity-<version>.dmg`, where `<version>` is `X.Y.Z`, e.g. `4.7.0`. That seems to work well for earlier non-patch versions (e.g. `4.7.0f1` -> `http://download.unity3d.com/download_unity/unity-4.7.0.dmg`) 
-2) Use your general search engine of choice and try `Unity <version>` (e.g. `Unity 5.6.4p4`)
+### Method 2: Using level0 file
 
-3) Use `archive.org` and search for `https://download.unity3d.com/download_unity/`, switch to `URL` results and type verion into `Filter results by URL or MIME Type` search field:
+- Start [`Terminal.app`](https://support.apple.com/guide/terminal/welcome/mac)
+- Navigate to game `Data` folder, e.g. `cd /Applications/<UnityGame>/Contents/Resources/Data`
+- Run the following command: `strings level0 | head -1`
+
+Alternatively:
+
+- With `Finder`, navigate to game `Data` folder, e.g. `/Applications/<UnityGame>/Contents/Resources/Data`
+- Open `level0` file in a text editor of your choice and observe the first readable string, e.g. `5.6.4p4`
+
+## Download Unity
+
+Find an installer for the correct Unity version:
+
+### Method 1: Check known download URLs
+
+Check out if [a list of known Unity version installers](../games/unity.md) contains the version that you need.
+
+### Method 2: Build a URL
+
+Try to construct a URL like `http://download.unity3d.com/download_unity/unity-<version>.dmg`, where `<version>` is `X.Y.Z`, e.g. `4.7.0`. That seems to work well for earlier non-patch versions (e.g. `4.7.0f1` -> `http://download.unity3d.com/download_unity/unity-4.7.0.dmg`) 
+
+### Method 3: Use search engine
+
+Use your general search engine of choice and try `Unity <version>` (e.g. `Unity 5.6.4p4`)
+
+### Method 4: Use archive.org
+
+Use `archive.org` and search for `https://download.unity3d.com/download_unity/`, switch to `URL` results and type verion into `Filter results by URL or MIME Type` search field:
     
-    - Look for URLs ending with `MacEditorInstaller/Unity-<version>.pkg`, e.g. `https://download.unity3d.com/download_unity/ac7086b8d112/MacExampleProjectInstaller/Examples-5.6.4f1.pkg`
-    - You don't need to download through `archive.org` - just copy `download.unity3d.com` URL and paste it to initiate download from Unity
+- Look for URLs ending with `MacEditorInstaller/Unity-<version>.pkg`, e.g. `https://download.unity3d.com/download_unity/ac7086b8d112/MacExampleProjectInstaller/Examples-5.6.4f1.pkg`
+- You don't need to download through `archive.org` - just copy `download.unity3d.com` URL and paste it to initiate download from Unity
 
-- SECURITY NOTICE: We strongly recommend downloading Unity installers **only** from `download.unity3d.com` website and not from any third-party websites. From our experiments - all version are available there, some need just a bit more search than others (e.g. `X.Y.Zp` patch releases).
-- IMPORTANT NOTE: You need a precise Unity Player version matching game data files requirement or the game won't run. Luckily, when attempted to start with a wrong player version, the game will clearly indicate required version, and you should be able to fix that problem.
+SECURITY NOTICE: We strongly recommend downloading Unity installers **only** from `download.unity3d.com` website and not from any third-party websites. From our experiments - all version are available there, some need just a bit more search than others (e.g. `X.Y.Zp` patch releases).
+
+IMPORTANT NOTE: You need a precise Unity Player version matching game data files requirement or the game won't run. Luckily, when attempted to start with a wrong player version, the game will clearly indicate required version, and you should be able to fix that problem.
 
 ## Prepare standalone player files
 
