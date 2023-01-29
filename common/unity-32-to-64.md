@@ -27,9 +27,11 @@ However, if you've got them earlier, those games still have 32-bit macOS version
 
 It's also likely those older games use GOG.com older packaging format (installer comes as a `.dmg` file), and you will need to perform additional steps to get ready for the update:
 
+NOTE: if a game is a `.pkg` installer, most likely, you don't need to do any of that and you'll get a game package without GOG.com wrapper.
+
 - Mount `.dmg` file in Finder
 - Drag the game icon to the Application folder (or anywhere else)
-- Locate the game icon at this new location and Right-click / Ctrl+click, them select `Show Package Contents`
+- Locate the game icon at this new location and Right-click / Ctrl+click, then select `Show Package Contents`
 - Navigate to `Contents`/`Resources`/`game` and you'll see the actual game package there (it seems like the rest of original package is GOG.com specific wrapper)
 - Drag that game package out (NOTE: often this package will have the same name as the GOG.com package, so you might need to drag somewhere else, like `~/Downloads`)
 - Congratulations! - now you have the game package ready to be updated! Feel free to discard that GOG.com package wrapper if you don't need it anymore.
@@ -104,6 +106,7 @@ IMPORTANT NOTE: Make a backup copy of the game package, so that you won't need t
 - Rename/Delete original game `Contents`/`MacOS`/`<GameTitle>` binary and rename `Contents`/`MacOS`/`UnityPlayer` -> `Contents`/`MacOS`/`<GameTitle>` (NOTE: use the exact binary name you had earlier!)
 - Assuming everything went well - you're done! Congratulations - now your game package is ready to run on 64-bit macOS.
 - Navigate to the folder containing your game package and run it (ignore the circle with a line crossing that indicates game compatibility problem - it'll disappear once you successfully launch the game)
+- NOTE: macOS would likely not allow you to *just run* the game on the first try - and you will need to Right-click / Ctrl+click on the game and select `Open` then confirm your desire to run the game from unknown developer.
 - (Optionally) Clean-up installed or extracted Unity, any installers you've downloaded, etc.
 
 ## Troubleshooting common problems
@@ -120,3 +123,9 @@ Sometimes the game fails to run despite your best efforts. The best way to debug
 You might see: `Invalid serialized file version. File: "/Applications/<GamePackage>/Contents/Resources/Data/globalgamemanagers. Expected version: <expected_version>. Actual version: <actual_version>.` (e.g. `Expected version: 5.6.4f1. Actual version: 5.6.4p4.`)
 
 - Make sure you find and download the correct expected version: [Determine Unity version and download the player](#determine-unity-version-and-download-the-player)
+
+### Unity 4.x.x games not launching
+
+[Reddit user HomeStarRunnerTron](https://www.reddit.com/user/HomeStarRunnerTron/) troubleshooting tip:
+
+`All the Unity v4 games that I tested (which were all small indie projects) don't launch at all unless I click on the Input tab before starting. I think that reinitializes the keyboard mapping or something. I don't know if there's a way around this step, but I have to do this every time for those games before they'll launch.`

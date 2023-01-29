@@ -26,6 +26,6 @@ Happy gaming!
 
 Below is the list of games we've personally converted and verified that they launch and start (we can't guarantee 100% compatibility):
 
-- [else Heart.Break()](unity/else-heart-break.md)
-- [Hatoful Boyfriend](unity/hatoful-boyfriend.md)
-- [The 25th Ward: The Silver Case](unity/the-25th-ward.md)
+- [else Heart.Break()](games/unity.md#else-heartbreak)
+- [Hatoful Boyfriend](games/unity.md#hatoful-boyfriend)
+- [The 25th Ward: The Silver Case](games/unity.md#the-25th-ward-the-silver-case)
