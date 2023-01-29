@@ -12,8 +12,8 @@ Here are the steps required to update the game:
 - [Download and install the game](#download-and-install-the-game)
 - [Determine Unity version and download the player](#determine-unity-version-and-download-the-player)
 - [Prepare standalone player files](#prepare-standalone-player-files)
-- [Update the game](#update-the-game)
-- (Optionally) [Troubleshooting common problems](#troubleshooting-common-problems)
+- [Update the game](#update-and-run-the-game)
+- (Optionally) [Troubleshoot common problems](#troubleshoot-common-problems)
 
 ## Download and install the game
 
@@ -109,7 +109,7 @@ IMPORTANT NOTE: Make a backup copy of the game package, so that you won't need t
 - NOTE: macOS would likely not allow you to *just run* the game on the first try - and you will need to Right-click / Ctrl+click on the game and select `Open` then confirm your desire to run the game from unknown developer.
 - (Optionally) Clean-up installed or extracted Unity, any installers you've downloaded, etc.
 
-## Troubleshooting common problems
+## Troubleshoot common problems
 
 Sometimes the game fails to run despite your best efforts. The best way to debug that would be launching the game with [`Terminal.app`](https://support.apple.com/guide/terminal/welcome/mac) and observing the error message:
 
