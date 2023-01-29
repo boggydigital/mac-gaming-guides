@@ -8,6 +8,10 @@ guide and the following versions/installers:
 - [Hatoful Boyfriend](#hatoful-boyfriend)
 - [The 25th Ward: The Silver Case](#the-25th-ward-the-silver-case)
 
+Games we couldn't manage to get running:
+
+- [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
+
 # else Heart.Break()
 
 | Unity version | Installer                                                    |
@@ -22,12 +26,28 @@ guide and the following versions/installers:
 | `4.5.3f3`     | `http://download.unity3d.com/download_unity/unity-4.5.3.dmg` |
 | MD5           | `2bbec655209e1c757189c3c3d507b57e`                           |
 
+
+
 # The 25th Ward: The Silver Case
 
 | Unity version | Installer                                                                                       |
 |---------------|:------------------------------------------------------------------------------------------------|
 | `5.6.4p4`     | `https://download.unity3d.com/download_unity/72f24c04957f/MacEditorInstaller/Unity-5.6.4p4.pkg` |
 | MD5           | `a4e78561ea25c968e064bd6ac3fa6ca7`                                                              |
+# Games that don't work currently
+
+## Shadow Tactics: Blades of the Shogun
+
+Log output:
+
+Boolean HIDBuildMultiDeviceList(const UInt32 *, const UInt32 *, int): Couldn’t open IOHIDManager.The file '/Applications/Shadow Tactics Blades of the Shogun.app/Contents/Resources/Data/globalgamemanagers' is corrupted! Remove it and launch unity again!
+
+NOTE: Copying over Windows version files doesn't resolve that issue
+
+| Unity version | Installer                                                                                       |
+|---------------|:------------------------------------------------------------------------------------------------|
+| `5.4.4f1`     | `https://download.unity3d.com/download_unity/5a3967d8c55d/MacEditorInstaller/Unity-5.4.4f1.pkg` |
+| MD5           | `15beb632f08b095531a8d1a6a680eeae`                                                              |
 
 # TODO
 
