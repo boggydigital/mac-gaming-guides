@@ -81,6 +81,10 @@ Use `archive.org` and search for `https://download.unity3d.com/download_unity/`,
 - Look for URLs ending with `MacEditorInstaller/Unity-<version>.pkg`, e.g. `https://download.unity3d.com/download_unity/ac7086b8d112/MacExampleProjectInstaller/Examples-5.6.4f1.pkg`
 - You don't need to download through `archive.org` - just copy `download.unity3d.com` URL and paste it to initiate download from Unity
 
+### Method 5: Try Windows / Linux Unity versions
+
+If you absolutely cannot find required macOS version of Unity - check if you can locate Windows or Linux versions. Just like macOS version comes with Windows / Linux standalone players - they might contain macOS standalone players. 
+
 SECURITY NOTICE: We strongly recommend downloading Unity installers **only** from `download.unity3d.com` website and not from any third-party websites. From our experiments - all version are available there, some need just a bit more search than others (e.g. `X.Y.Zp` patch releases).
 
 IMPORTANT NOTE: You need a precise Unity Player version matching game data files requirement or the game won't run. Luckily, when attempted to start with a wrong player version, the game will clearly indicate required version, and you should be able to fix that problem.
@@ -89,7 +93,7 @@ IMPORTANT NOTE: You need a precise Unity Player version matching game data files
 
 The simplest approach is to install Unity you've just downloaded. This might require several steps, and the process is generally pretty straightforward. You'll end up with `Unity` folder in your `Applications` folder. If so - you can skip the next section that achieves the same result without installation.
 
-### Extracting the player without installing
+### Extract the player without installing
 
 In case you've got a `.pkg` Unity installer - you can use `pkgutil` to extract the files:
 
@@ -121,7 +125,7 @@ Regardless of how you've got `Unity`/`Unity.app` - either by installing or extra
 
 ## Update and run the game
 
-IMPORTANT NOTE: Make a backup copy of the game package, so that you won't need to re-download/re-install if things go wrong.
+IMPORTANT NOTE #1: Make a backup copy of the game package, so that you won't need to re-download/re-install if things go wrong.
 
 - Locate and prepare the game package (see [Download and install the game](#download-and-install-the-game)):
 
@@ -130,7 +134,8 @@ IMPORTANT NOTE: Make a backup copy of the game package, so that you won't need t
 
 - Locate and prepare Unity standalone playback engine (see [Prepare standalone player files](#prepare-standalone-player-files))
 
-- Replace original game `Contents`/`Frameworks` with Unity standalone playback engine `Contents`/`Frameworks`
+- Copy files from Unity standalone playback engine `Contents`/`Frameworks` to the original game `Contents`/`Frameworks` - e.g. `Contents`/`Frameworks`/`MonoEmbedRuntime`/`osx`/`*.dylib`
+- IMPORTANT NOTE: Don't replace original game entire`Contents`/`Frameworks` folder, because it may contain other required files, not provided by Unity standalone playback engine!
 - Copy/Move Unity standalone playback engine `Contents`/`MacOS`/`UnityPlayer` binary to original game `Contents`/`MacOS`
 - Rename/Delete original game `Contents`/`MacOS`/`<GameTitle>` binary and rename `Contents`/`MacOS`/`UnityPlayer` -> `Contents`/`MacOS`/`<GameTitle>` (NOTE: use the exact binary name you had earlier!)
 - Assuming everything went well - you're done! Congratulations - now your game package is ready to run on 64-bit macOS.
@@ -146,6 +151,8 @@ Sometimes the game fails to run despite your best efforts. The best way to debug
 - Navigate to the game package: `cd /Applications/<GamePackage>/Contents/MacOS`
 - Attempt to start the game: `./<GameTitle>`
 - Observe the messages
+
+- NOTE: Sometimes command-line output doesn't work, in those cases consider adding log file output: `./<GameTitle> -logfile <location-of-logfile>`, where `<location-of-logfile>` is something like `~/Downloads/unity_log.txt`
 
 ### Incorrect Unity standalone playback engine version
 
