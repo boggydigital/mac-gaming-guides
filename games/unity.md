@@ -7,6 +7,9 @@ guide and the following versions/installers:
 - [Desktop Dungeons Enhanced Edition](#desktop-dungeons-enhanced-edition)
 - [else Heart.Break()](#else-heartbreak)
 - [Hatoful Boyfriend](#hatoful-boyfriend)
+- [Shadowrun: Dragonfall - Director's Cut](#shadowrun-dragonfall---directors-cut)
+- [Shadowrun Hong Kong - Extended Edition](#shadowrun-hong-kong---extended-edition)
+- [Shadowrun: Returns](#shadowrun-returns)
 - [The 25th Ward: The Silver Case](#the-25th-ward-the-silver-case)
 
 Games we couldn't manage to get running:
@@ -34,12 +37,35 @@ Games we couldn't manage to get running:
 | `4.5.3f3`     | `http://download.unity3d.com/download_unity/unity-4.5.3.dmg` |
 | MD5           | `2bbec655209e1c757189c3c3d507b57e`                           |
 
+# Shadowrun: Dragonfall - Director's Cut
+
+| Unity version | Installer                                                    |
+|---------------|:-------------------------------------------------------------|
+| `4.3.4f1`     | `http://download.unity3d.com/download_unity/unity-4.3.4.dmg` |
+| MD5           | `244491f7589fd12d519e2cfdf7943765`                           |
+
+# Shadowrun Hong Kong - Extended Edition
+
+| Unity version | Installer                                                    |
+|---------------|:-------------------------------------------------------------|
+| `4.6.2f1`     | `http://download.unity3d.com/download_unity/unity-4.6.2.dmg` |
+| MD5           | `16e4a4a0b583f143e3a256ff7160e9c9`                           |
+
+# Shadowrun: Returns
+
+| Unity version | Installer                                                    |
+|---------------|:-------------------------------------------------------------|
+| `4.2.2f1`     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
+| MD5           | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
+
+
 # The 25th Ward: The Silver Case
 
 | Unity version | Installer                                                                                       |
 |---------------|:------------------------------------------------------------------------------------------------|
 | `5.6.4p4`     | `https://download.unity3d.com/download_unity/72f24c04957f/MacEditorInstaller/Unity-5.6.4p4.pkg` |
 | MD5           | `a4e78561ea25c968e064bd6ac3fa6ca7`                                                              |
+
 # Games that don't work currently
 
 ## Shadow Tactics: Blades of the Shogun

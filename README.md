@@ -26,6 +26,10 @@ Happy gaming!
 
 Below is the list of games we've personally converted and verified that they launch and start (we can't guarantee 100% compatibility):
 
+- [Desktop Dungeons Enhanced Edition](games/unity.md#desktop-dungeons-enhanced-edition)
 - [else Heart.Break()](games/unity.md#else-heartbreak)
 - [Hatoful Boyfriend](games/unity.md#hatoful-boyfriend)
+- [Shadowrun: Dragonfall - Director's Cut](games/unity.md#shadowrun-dragonfall---directors-cut)
+- [Shadowrun Hong Kong - Extended Edition](games/unity.md#shadowrun-hong-kong---extended-edition)
+- [Shadowrun: Returns](games/unity.md#shadowrun-returns)
 - [The 25th Ward: The Silver Case](games/unity.md#the-25th-ward-the-silver-case)
