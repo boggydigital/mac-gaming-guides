@@ -33,3 +33,4 @@ Below is the list of games we've personally converted and verified that they lau
 - [Shadowrun Hong Kong - Extended Edition](games/unity.md#shadowrun-hong-kong---extended-edition)
 - [Shadowrun: Returns](games/unity.md#shadowrun-returns)
 - [The 25th Ward: The Silver Case](games/unity.md#the-25th-ward-the-silver-case)
+- [The Silver Case](games/unity.md#the-silver-case)

@@ -11,6 +11,7 @@ guide and the following versions/installers:
 - [Shadowrun Hong Kong - Extended Edition](#shadowrun-hong-kong---extended-edition)
 - [Shadowrun: Returns](#shadowrun-returns)
 - [The 25th Ward: The Silver Case](#the-25th-ward-the-silver-case)
+- [The Silver Case](#the-silver-case)
 
 Games we couldn't manage to get running:
 
@@ -66,6 +67,13 @@ Games we couldn't manage to get running:
 | `5.6.4p4`     | `https://download.unity3d.com/download_unity/72f24c04957f/MacEditorInstaller/Unity-5.6.4p4.pkg` |
 | MD5           | `a4e78561ea25c968e064bd6ac3fa6ca7`                                                              |
 
+# The Silver Case
+
+| Unity version | Installer                                                                                       |
+|---------------|:------------------------------------------------------------------------------------------------|
+| `5.4.1p4`     | `https://download.unity3d.com/download_unity/139dac7766f0/MacEditorInstaller/Unity-5.4.1p4.pkg` |
+| MD5           | `803ed4cfe4a38ce3d451b5c594fd6877`                                                              |
+
 # Games that don't work currently
 
 ## Shadow Tactics: Blades of the Shogun
@@ -90,18 +98,14 @@ app or might be developer just not releasing macOS version) on GOG.com along wit
 - 1183022406 Anima: Gate of Memories
 - 1988363275 Encased: A Sci-Fi Post-Apocalyptic RPG
 - 1443428641 HuniePop
-- 1866866270 Star Vikings Demo
 - 1411626324 Tower of Time
 - 1453126104 FORCED SHOWDOWN
 - 1207664303 Sir, You Are Being Hunted
 - 1440407371 Big Pharma
 - 1856044899 Lost Sea
-- 1133130154 The Silver Case
 - 1207666493 Screencheat
-- 1436866438 Shadowrun Hong Kong - Extended Edition
 - 1301888900 Odd Realm
 - 1458053826 Slain: Back From Hell
-- 1207660913 Shadowrun: Dragonfall - Director's Cut
 - 1476323769 Star Vikings Forever
 - 1271058609 Crossing Souls
 - 1207664573 Bionic Dues
@@ -124,7 +128,6 @@ app or might be developer just not releasing macOS version) on GOG.com along wit
 - 1446112277 Never Alone Arctic Collection
 - 1115004086 We are the Dwarves
 - 1207659853 Montague's Mount
-- 1207660413 Shadowrun Returns
 - 1207666743 Lovely Planet
 - 1431941262 Serpent in the Staglands
 - 1434013541 Breach & Clear
@@ -139,7 +142,6 @@ app or might be developer just not releasing macOS version) on GOG.com along wit
 - 2088043304 Save Room - Organization Puzzle
 - 1455119388 Cornerstone: The Song of Tyrim
 - 1503191590 Pinstripe
-- 1398952847 Crossing Souls Demo
 - 1259329786 Rise of Industry
 - 1424442317 Hot Tin Roof: The Cat That Wore A Fedora
 - 1422618200 Paranautical Activity Deluxe Atonement Edition
