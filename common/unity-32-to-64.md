@@ -11,7 +11,7 @@ Here are the steps required to update the game:
 
 - [Download and install the game](#download-and-install-the-game)
 - [Determine Unity version](#determine-unity-version)
-- [Download Unity](#download-unity-)
+- [Download Unity](#download-unity)
 - [Prepare standalone player files](#prepare-standalone-player-files)
 - [Update the game](#update-and-run-the-game)
 - (Optionally) [Troubleshoot common problems](#troubleshoot-common-problems)
@@ -123,6 +123,13 @@ Regardless of how you've got `Unity`/`Unity.app` - either by installing or extra
 
 - Keep them ready or copy to some more convenient location, either way - you're ready for the next step!
 
+- (Optional) Verify that the prepared version of the player is the correct one:
+  - Start [`Terminal.app`](https://support.apple.com/guide/terminal/welcome/mac)
+  - Navigate to the location of the player (e.g. `cd <path-to-the-folder-containing-Unity.app>/Contents/MacOS`)
+  - Run the following command: `strings UnityPlayer | grep <unity-version>`, e.g. `strings UnityPlayer | grep 4.7.0f1`
+  - Observe the output that should contain strings with that version, notably something like: `Invalid serialized file version. File: "%s". Expected version: 4.7.0f1. Actual version: %s.`
+  - If you're getting multiple lines with that version - it's likely that you've got a wrong version and need to re-download the correct one: see [Determine Unity version](#determine-unity-version) and [Download Unity](#download-unity).
+
 ## Update and run the game
 
 IMPORTANT NOTE #1: Make a backup copy of the game package, so that you won't need to re-download/re-install if things go wrong.
@@ -158,7 +165,7 @@ Sometimes the game fails to run despite your best efforts. The best way to debug
 
 You might see: `Invalid serialized file version. File: "/Applications/<GamePackage>/Contents/Resources/Data/globalgamemanagers. Expected version: <expected_version>. Actual version: <actual_version>.` (e.g. `Expected version: 5.6.4f1. Actual version: 5.6.4p4.`)
 
-- Make sure you find and download the correct expected version: [Determine Unity version and download the player](#determine-unity-version-and-download-the-player)
+- Make sure you find and download the correct expected version, see [Determine Unity version](#determine-unity-version) and [Download Unity](#download-unity)
 
 ### Unity 4.x.x games not launching
 
