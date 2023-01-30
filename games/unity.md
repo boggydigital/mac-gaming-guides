@@ -4,6 +4,7 @@ Unity games player versions
 Use [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/unity-32-to-64.md)
 guide and the following versions/installers:
 
+- [Desktop Dungeons Enhanced Edition](#desktop-dungeons-enhanced-edition)
 - [else Heart.Break()](#else-heartbreak)
 - [Hatoful Boyfriend](#hatoful-boyfriend)
 - [The 25th Ward: The Silver Case](#the-25th-ward-the-silver-case)
@@ -11,6 +12,13 @@ guide and the following versions/installers:
 Games we couldn't manage to get running:
 
 - [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
+
+# Desktop Dungeons Enhanced Edition
+
+| Unity version | Installer                                                    |
+|---------------|:-------------------------------------------------------------|
+| `4.6.4f1`     | `http://download.unity3d.com/download_unity/unity-4.6.4.dmg` |
+| MD5           | `a324073f851d6877a845afe4ea6cbb24`                           |
 
 # else Heart.Break()
 
@@ -25,8 +33,6 @@ Games we couldn't manage to get running:
 |---------------|:-------------------------------------------------------------|
 | `4.5.3f3`     | `http://download.unity3d.com/download_unity/unity-4.5.3.dmg` |
 | MD5           | `2bbec655209e1c757189c3c3d507b57e`                           |
-
-
 
 # The 25th Ward: The Silver Case
 
@@ -63,16 +69,13 @@ app or might be developer just not releasing macOS version) on GOG.com along wit
 - 1453126104 FORCED SHOWDOWN
 - 1207664303 Sir, You Are Being Hunted
 - 1440407371 Big Pharma
-- 1207664703 Desktop Dungeons Enhanced Edition
 - 1856044899 Lost Sea
-- 1146045354 Shadow Tactics: Blades of the Shogun Demo
 - 1133130154 The Silver Case
 - 1207666493 Screencheat
 - 1436866438 Shadowrun Hong Kong - Extended Edition
 - 1301888900 Odd Realm
 - 1458053826 Slain: Back From Hell
 - 1207660913 Shadowrun: Dragonfall - Director's Cut
-- 1207665623 Hatoful Boyfriend
 - 1476323769 Star Vikings Forever
 - 1271058609 Crossing Souls
 - 1207664573 Bionic Dues
@@ -103,7 +106,6 @@ app or might be developer just not releasing macOS version) on GOG.com along wit
 - 1452777713 Punch Club
 - 1425559795 Deadnaut
 - 1207665283 Kingdom Rush
-- 1442485613 else Heart.Break()
 - 1654806596 Viscerafest
 - 1207662703 Moebius: Empire Rising
 - 1207665183 Tetrobot and Co.
@@ -119,7 +121,6 @@ app or might be developer just not releasing macOS version) on GOG.com along wit
 - 1420648479 Ultimate General: Gettysburg
 - 1814467460 Victory At Sea
 - 1207665823 Shadowgate
-- 1601442230 Shadow Tactics: Blades of the Shogun
 - 1512035836 Frogun
 - 2056546893 GoNNER BlüEBERRY EdiTION
 - 1457531523 Block'hood
