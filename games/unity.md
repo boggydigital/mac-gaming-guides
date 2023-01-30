@@ -4,6 +4,7 @@ Unity games player versions
 Use [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/unity-32-to-64.md)
 guide and the following versions/installers:
 
+- [Chaos Reborn](#chaos-reborn)
 - [Desktop Dungeons Enhanced Edition](#desktop-dungeons-enhanced-edition)
 - [else Heart.Break()](#else-heartbreak)
 - [Hatoful Boyfriend](#hatoful-boyfriend)
@@ -16,6 +17,13 @@ guide and the following versions/installers:
 Games we couldn't manage to get running:
 
 - [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
+
+# Chaos Reborn
+
+| Unity version | Installer                                                                                       |
+|---------------|:------------------------------------------------------------------------------------------------|
+| `5.6.0f3`     | `https://download.unity3d.com/download_unity/497a0f351392/MacEditorInstaller/Unity-5.6.0f3.pkg` |
+| MD5           | `022c9ec8a3b4e187a2deea60a289fba7`                                                              |
 
 # Desktop Dungeons Enhanced Edition
 
@@ -112,14 +120,12 @@ app or might be developer just not releasing macOS version) on GOG.com along wit
 - 1748335600 Oh...Sir!! The Insult Simulator
 - 1454930864 Sheltered
 - 1207664563 CLARC
-- 1525754046 The 25th Ward: The Silver Case
 - 1424254701 The Last Tinker™: City of Colors
 - 1207660173 Redshirt
 - 1207665863 Spacecom
 - 1423758554 The Book of Unwritten Tales 2
 - 1473737130 Kingdom: New Lands
 - 1805307632 Mainframe Defenders
-- 1450347751 Chaos Reborn
 - 1661530902 Clustertruck
 - 2062750501 9th Dawn III
 - 1320675280 Knights of Pen and Paper +1 Edition
@@ -134,7 +140,6 @@ app or might be developer just not releasing macOS version) on GOG.com along wit
 - 1427188253 Dead Synchronicity: Tomorrow Comes Today
 - 1452777713 Punch Club
 - 1425559795 Deadnaut
-- 1207665283 Kingdom Rush
 - 1654806596 Viscerafest
 - 1207662703 Moebius: Empire Rising
 - 1207665183 Tetrobot and Co.
@@ -149,7 +154,6 @@ app or might be developer just not releasing macOS version) on GOG.com along wit
 - 1420648479 Ultimate General: Gettysburg
 - 1814467460 Victory At Sea
 - 1207665823 Shadowgate
-- 1512035836 Frogun
 - 2056546893 GoNNER BlüEBERRY EdiTION
 - 1457531523 Block'hood
 - 1424782569 Oddworld: New ’n’ Tasty
