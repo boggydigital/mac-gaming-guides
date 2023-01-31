@@ -20,66 +20,74 @@ Games we couldn't manage to get running:
 
 # Chaos Reborn
 
-| Unity version | Installer                                                                                       |
+|               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
-| `5.6.0f3`     | `https://download.unity3d.com/download_unity/497a0f351392/MacEditorInstaller/Unity-5.6.0f3.pkg` |
+| Unity version | `5.6.0f3`                                                                                       |
+| Installer     | `https://download.unity3d.com/download_unity/497a0f351392/MacEditorInstaller/Unity-5.6.0f3.pkg` |
 | MD5           | `022c9ec8a3b4e187a2deea60a289fba7`                                                              |
 
 # Desktop Dungeons Enhanced Edition
 
-| Unity version | Installer                                                    |
+|               |                                                              |
 |---------------|:-------------------------------------------------------------|
-| `4.6.4f1`     | `http://download.unity3d.com/download_unity/unity-4.6.4.dmg` |
+| Unity version | `4.6.4f1`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.6.4.dmg` |
 | MD5           | `a324073f851d6877a845afe4ea6cbb24`                           |
 
 # else Heart.Break()
 
-| Unity version | Installer                                                    |
+|               |                                                              |
 |---------------|:-------------------------------------------------------------|
-| `4.7.0f1`     | `http://download.unity3d.com/download_unity/unity-4.7.0.dmg` |
+| Unity version | `4.7.0f1`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.7.0.dmg` |
 | MD5           | `9c202226c7846bfe97366d4d4638aef8`                           |
 
 # Hatoful Boyfriend
 
-| Unity version | Installer                                                    |
+|               |                                                              |
 |---------------|:-------------------------------------------------------------|
-| `4.5.3f3`     | `http://download.unity3d.com/download_unity/unity-4.5.3.dmg` |
+| Unity version | `4.5.3f3`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.5.3.dmg` |
 | MD5           | `2bbec655209e1c757189c3c3d507b57e`                           |
 
 # Shadowrun: Dragonfall - Director's Cut
 
-| Unity version | Installer                                                    |
+|               |                                                              |
 |---------------|:-------------------------------------------------------------|
-| `4.3.4f1`     | `http://download.unity3d.com/download_unity/unity-4.3.4.dmg` |
+| Unity version | `4.3.4f1`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.3.4.dmg` |
 | MD5           | `244491f7589fd12d519e2cfdf7943765`                           |
 
 # Shadowrun Hong Kong - Extended Edition
 
-| Unity version | Installer                                                    |
+|               |                                                              |
 |---------------|:-------------------------------------------------------------|
-| `4.6.2f1`     | `http://download.unity3d.com/download_unity/unity-4.6.2.dmg` |
+| Unity version | `4.6.2f1`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.6.2.dmg` |
 | MD5           | `16e4a4a0b583f143e3a256ff7160e9c9`                           |
 
 # Shadowrun: Returns
 
-| Unity version | Installer                                                    |
+|               |                                                              |
 |---------------|:-------------------------------------------------------------|
-| `4.2.2f1`     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
+| Unity version | `4.2.2f1`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
 | MD5           | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
-
 
 # The 25th Ward: The Silver Case
 
-| Unity version | Installer                                                                                       |
+|               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
-| `5.6.4p4`     | `https://download.unity3d.com/download_unity/72f24c04957f/MacEditorInstaller/Unity-5.6.4p4.pkg` |
+| Unity version | `5.6.4p4`                                                                                       |
+| Installer     | `https://download.unity3d.com/download_unity/72f24c04957f/MacEditorInstaller/Unity-5.6.4p4.pkg` |
 | MD5           | `a4e78561ea25c968e064bd6ac3fa6ca7`                                                              |
 
 # The Silver Case
 
-| Unity version | Installer                                                                                       |
+|               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
-| `5.4.1p4`     | `https://download.unity3d.com/download_unity/139dac7766f0/MacEditorInstaller/Unity-5.4.1p4.pkg` |
+| Unity version | `5.4.1p4`                                                                                       |
+| Installer     | `https://download.unity3d.com/download_unity/139dac7766f0/MacEditorInstaller/Unity-5.4.1p4.pkg` |
 | MD5           | `803ed4cfe4a38ce3d451b5c594fd6877`                                                              |
 
 # Games that don't work currently
@@ -88,19 +96,24 @@ Games we couldn't manage to get running:
 
 Log output:
 
-Boolean HIDBuildMultiDeviceList(const UInt32 *, const UInt32 *, int): Couldn’t open IOHIDManager.The file '/Applications/Shadow Tactics Blades of the Shogun.app/Contents/Resources/Data/globalgamemanagers' is corrupted! Remove it and launch unity again!
+Boolean HIDBuildMultiDeviceList(const UInt32 *, const UInt32 *, int): Couldn’t open IOHIDManager.The
+file '/Applications/Shadow Tactics Blades of the
+Shogun.app/Contents/Resources/Data/globalgamemanagers' is corrupted! Remove it and launch unity
+again!
 
 NOTE: Copying over Windows version files doesn't resolve that issue
 
-| Unity version | Installer                                                                                       |
+|               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
-| `5.4.4f1`     | `https://download.unity3d.com/download_unity/5a3967d8c55d/MacEditorInstaller/Unity-5.4.4f1.pkg` |
+| Unity version | `5.4.4f1`                                                                                       |
+| Installer     | `https://download.unity3d.com/download_unity/5a3967d8c55d/MacEditorInstaller/Unity-5.4.4f1.pkg` |
 | MD5           | `15beb632f08b095531a8d1a6a680eeae`                                                              |
 
 # TODO
 
 Below is a list of games that list Linux version, but no macOS version (which might suggest 32-bit
-app or might be developer just not releasing macOS version) on GOG.com along with a game ID - will be used as a TODO to validate and polish the process further:
+app or might be developer just not releasing macOS version) on GOG.com along with a game ID - will
+be used as a TODO to validate and polish the process further:
 
 - 1851072646 Please Fix The Road
 - 1183022406 Anima: Gate of Memories
