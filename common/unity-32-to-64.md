@@ -123,12 +123,7 @@ Regardless of how you've got `Unity`/`Unity.app` - either by installing or extra
 
 - Keep them ready or copy to some more convenient location, either way - you're ready for the next step!
 
-- (Optional) Verify that the prepared version of the player is the correct one:
-  - Start [`Terminal.app`](https://support.apple.com/guide/terminal/welcome/mac)
-  - Navigate to the location of the player (e.g. `cd <path-to-the-folder-containing-Unity.app>/Contents/MacOS`)
-  - Run the following command: `strings UnityPlayer | grep <unity-version>`, e.g. `strings UnityPlayer | grep 4.7.0f1`
-  - Observe the output that should contain strings with that version, notably something like: `Invalid serialized file version. File: "%s". Expected version: 4.7.0f1. Actual version: %s.`
-  - If you're getting multiple lines with that version - it's likely that you've got a wrong version and need to re-download the correct one: see [Determine Unity version](#determine-unity-version) and [Download Unity](#download-unity).
+- (Optional) [Verify that you've got the correct standalone player version](#validating-that-youve-downloaded-the-correct-standalone-player-version)
 
 ## Update and run the game
 
@@ -172,3 +167,20 @@ You might see: `Invalid serialized file version. File: "/Applications/<GamePacka
 [Reddit user HomeStarRunnerTron](https://www.reddit.com/user/HomeStarRunnerTron/) troubleshooting tip:
 
 `All the Unity v4 games that I tested (which were all small indie projects) don't launch at all unless I click on the Input tab before starting. I think that reinitializes the keyboard mapping or something. I don't know if there's a way around this step, but I have to do this every time for those games before they'll launch.`
+
+### Validating that you've downloaded the correct standalone player version
+
+Verify that the prepared version of the player is the correct one:
+
+- Start [`Terminal.app`](https://support.apple.com/guide/terminal/welcome/mac)
+- Navigate to the location of the player (e.g. `cd <path-to-the-folder-containing-Unity.app>/Contents/MacOS`)
+- Run the following command: `strings UnityPlayer | grep <unity-version>`, e.g. `strings UnityPlayer | grep 4.7.0f1`
+- Observe the output:
+
+**Correct player version**
+
+- The output contains multiple strings with that version, something like: `Invalid serialized file version. File: "%s". Expected version: 4.7.0f1. Actual version: %s.`
+
+**Incorrect player version**
+
+- If the output doesn't contain lines with that version - it's likely that you've got a wrong version and need to re-download the correct one: see [Determine Unity version](#determine-unity-version) and [Download Unity](#download-unity).
