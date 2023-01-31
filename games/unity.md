@@ -12,6 +12,7 @@ guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/
 - [Shadowrun: Dragonfall - Director's Cut](#shadowrun-dragonfall---directors-cut)
 - [Shadowrun Hong Kong - Extended Edition](#shadowrun-hong-kong---extended-edition)
 - [Shadowrun: Returns](#shadowrun-returns)
+- [Star Vikings Forever](#star-vikings-forever)
 - [The 25th Ward: The Silver Case](#the-25th-ward-the-silver-case)
 - [The Silver Case](#the-silver-case)
 
