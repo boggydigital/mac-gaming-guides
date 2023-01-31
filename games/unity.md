@@ -1,9 +1,9 @@
 Unity games player versions
 ===========================
+ 
+List of games verified working after updating following the guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/unity-32-to-64.md):
 
-Use [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/unity-32-to-64.md)
-guide and the following versions/installers:
-
+- [Breach & Clear](#breach--clear)
 - [Chaos Reborn](#chaos-reborn)
 - [Desktop Dungeons Enhanced Edition](#desktop-dungeons-enhanced-edition)
 - [else Heart.Break()](#else-heartbreak)
@@ -17,6 +17,14 @@ guide and the following versions/installers:
 Games we couldn't manage to get running:
 
 - [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
+
+# Breach & Clear
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `4.6.4f1`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.6.4.dmg` |
+| MD5           | `a324073f851d6877a845afe4ea6cbb24`                           |
 
 # Chaos Reborn
 
