@@ -18,6 +18,7 @@ guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/
 
 Games we couldn't manage to get running:
 
+- [Oddworld: New ’n’ Tasty](#oddworld-new-n-tasty)
 - [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
 
 # Breach & Clear
@@ -110,6 +111,23 @@ Games we couldn't manage to get running:
 
 # Games that don't work currently
 
+## Oddworld: New ’n’ Tasty
+
+Log output:
+
+The file '/Applications/NNT.app/Contents/Data/mainData' is corrupted! Remove it and launch unity again!
+[Position out of bounds! 778928187 > 168480]
+(Filename:  Line: 269)
+The file '/Applications/NNT.app/Contents/Data/mainData' is corrupted! Remove it and launch unity again!
+[Position out of bounds! 778928187 > 4336]
+(Filename:  Line: 276)
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `4.3.4f1`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.3.4.dmg` |
+| MD5           | `244491f7589fd12d519e2cfdf7943765`                           |
+
 ## Shadow Tactics: Blades of the Shogun
 
 Log output:
@@ -184,4 +202,3 @@ be used as a TODO to validate and polish the process further:
 - 1207665823 Shadowgate
 - 2056546893 GoNNER BlüEBERRY EdiTION
 - 1457531523 Block'hood
-- 1424782569 Oddworld: New ’n’ Tasty
