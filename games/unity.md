@@ -1,7 +1,8 @@
 Unity games player versions
 ===========================
- 
-List of games verified working after updating following the guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/unity-32-to-64.md):
+
+List of games verified working after updating following the
+guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/unity-32-to-64.md):
 
 - [Breach & Clear](#breach--clear)
 - [Chaos Reborn](#chaos-reborn)
@@ -82,6 +83,14 @@ Games we couldn't manage to get running:
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
 | MD5           | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
 
+# Star Vikings Forever
+
+|               |                                                                                                    |
+|---------------|:---------------------------------------------------------------------------------------------------|
+| Unity version | `2017.1.5f1`                                                                                       |
+| Installer     | `https://download.unity3d.com/download_unity/9758a36cfaa6/MacEditorInstaller/Unity-2017.1.5f1.pkg` |
+| MD5           | `1de0b7d9f705dbd0eab65cbf2cc693ee`                                                                 |
+
 # The 25th Ward: The Silver Case
 
 |               |                                                                                                 |
@@ -135,7 +144,6 @@ be used as a TODO to validate and polish the process further:
 - 1207666493 Screencheat
 - 1301888900 Odd Realm
 - 1458053826 Slain: Back From Hell
-- 1476323769 Star Vikings Forever
 - 1271058609 Crossing Souls
 - 1207664573 Bionic Dues
 - 1748335600 Oh...Sir!! The Insult Simulator
@@ -157,11 +165,9 @@ be used as a TODO to validate and polish the process further:
 - 1207659853 Montague's Mount
 - 1207666743 Lovely Planet
 - 1431941262 Serpent in the Staglands
-- 1434013541 Breach & Clear
 - 1427188253 Dead Synchronicity: Tomorrow Comes Today
 - 1452777713 Punch Club
 - 1425559795 Deadnaut
-- 1654806596 Viscerafest
 - 1207662703 Moebius: Empire Rising
 - 1207665183 Tetrobot and Co.
 - 1425568340 The Fall
