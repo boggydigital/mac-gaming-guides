@@ -20,6 +20,7 @@ Games we couldn't manage to get running:
 
 - [Oddworld: New ’n’ Tasty](#oddworld-new-n-tasty)
 - [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
+- [Violett]()
 
 # Breach & Clear
 
@@ -144,6 +145,16 @@ NOTE: Copying over Windows version files doesn't resolve that issue
 | Unity version | `5.4.4f1`                                                                                       |
 | Installer     | `https://download.unity3d.com/download_unity/5a3967d8c55d/MacEditorInstaller/Unity-5.4.4f1.pkg` |
 | MD5           | `15beb632f08b095531a8d1a6a680eeae`                                                              |
+
+## Violett
+
+Thanks [M0REKZ](https://github.com/M0REKZ) for confirming that the game ships 32-bit `SteamworksNative.bundle` and doesn't start due to that. See [Checking if the game doesn't run due to plugin architecture mismatch](../common/unity-32-to-64.md#checking-if-the-game-doesnt-run-due-to-plugin-architecture-mismatch) for more details.
+
+|               |       |
+|---------------|:------|
+| Unity version | `N/A` |
+| Installer     | `N/A` |
+| MD5           | `N/A` |
 
 # TODO
 

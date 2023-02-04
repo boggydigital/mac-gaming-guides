@@ -184,3 +184,33 @@ Verify that the prepared version of the player is the correct one:
 **Incorrect player version**
 
 - If the output doesn't contain lines with that version - it's likely that you've got a wrong version and need to re-download the correct one: see [Determine Unity version](#determine-unity-version) and [Download Unity](#download-unity).
+
+### Checking if the game doesn't run due to plugin architecture mismatch
+
+Another problem that might prevent the game from launching successfully is plugin architecture mismatch. Here is how to verify that:
+
+- Start [`Terminal.app`](https://support.apple.com/guide/terminal/welcome/mac)
+- Navigate to the contents of the game app bundle (e.g. `cd /Applications/<Game.app>/Contents/`)
+- Check if there is a `Plugins` folder: `cd Plugins` and plugins bundles there: `ls`
+
+If plugins are individual files:
+
+- Run `file <filename.dylib>`, e.g. `file libsteam_api.dylib`
+- Output should contain `x86_64` and not just `i386`, e.g. this is expected good result:
+
+```text
+libsteam_api.dylib: Mach-O universal binary with 2 architectures: [i386:Mach-O dynamically linked shared library i386] [x86_64:Mach-O 64-bit dynamically linked shared library x86_64]
+libsteam_api.dylib (for architecture i386):	Mach-O dynamically linked shared library i386
+libsteam_api.dylib (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+```
+
+- If the output contains just `i386` that means that the plug-in itself is 32-bit and the game won't work:
+
+```text
+libsteam_api.dylib: Mach-O bundle i386
+```
+
+If plugins are bundles:
+
+- Navigate to each bundle `Contents/MacOS` and verify all binaries, e.g. `CSteamworks.bundle/Contents/MacOS` might have `CSteamworks`, `libsteam_api.dylib`, etc.
+- Apply steps in the `If plugins are individual files:` above to validate those binaries
