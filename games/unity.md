@@ -7,8 +7,11 @@ guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/
 - [Breach & Clear](#breach--clear)
 - [Chaos Reborn](#chaos-reborn)
 - [Desktop Dungeons Enhanced Edition](#desktop-dungeons-enhanced-edition)
+- [Dungeon of the Endless](#dungeon-of-the-endless)
 - [else Heart.Break()](#else-heartbreak)
 - [Hatoful Boyfriend](#hatoful-boyfriend)
+- [I Am Bread](#i-am-bread)
+- [Semblance](#semblance)
 - [Shadowrun: Dragonfall - Director's Cut](#shadowrun-dragonfall---directors-cut)
 - [Shadowrun Hong Kong - Extended Edition](#shadowrun-hong-kong---extended-edition)
 - [Shadowrun: Returns](#shadowrun-returns)
@@ -20,7 +23,7 @@ Games we couldn't manage to get running:
 
 - [Oddworld: New ’n’ Tasty](#oddworld-new-n-tasty)
 - [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
-- [Violett](#violett)
+- [Violett Remastered](#violett-remastered)
 
 # Breach & Clear
 
@@ -46,6 +49,16 @@ Games we couldn't manage to get running:
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.6.4.dmg` |
 | MD5           | `a324073f851d6877a845afe4ea6cbb24`                           |
 
+# Dungeon of the Endless
+
+NOTE: This game does not have audio due to some problems with fmodex libraries, if you find a way to solve it, let us know.
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `5.0.3p3`                                                    |
+| Installer     | `N/A`                                                        |
+| MD5           | `N/A`                                                        |
+
 # else Heart.Break()
 
 |               |                                                              |
@@ -61,6 +74,22 @@ Games we couldn't manage to get running:
 | Unity version | `4.5.3f3`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.5.3.dmg` |
 | MD5           | `2bbec655209e1c757189c3c3d507b57e`                           |
+
+# I Am Bread
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `5.0.2f1`                                                    |
+| Installer     | `N/A`                                                        |
+| MD5           | `N/A`                                                        |
+
+# Semblance
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `5.6.2p4`                                                    |
+| Installer     | `N/A` |
+| MD5           | `N/A`                                                        |
 
 # Shadowrun: Dragonfall - Director's Cut
 
@@ -146,13 +175,13 @@ NOTE: Copying over Windows version files doesn't resolve that issue
 | Installer     | `https://download.unity3d.com/download_unity/5a3967d8c55d/MacEditorInstaller/Unity-5.4.4f1.pkg` |
 | MD5           | `15beb632f08b095531a8d1a6a680eeae`                                                              |
 
-## Violett
+## Violett Remastered
 
 Thanks [M0REKZ](https://github.com/M0REKZ) for confirming that the game ships 32-bit `SteamworksNative.bundle` and doesn't start due to that. See [Checking if the game doesn't run due to plugin architecture mismatch](../common/unity-32-to-64.md#checking-if-the-game-doesnt-run-due-to-plugin-architecture-mismatch) for more details.
 
 |               |       |
 |---------------|:------|
-| Unity version | `N/A` |
+| Unity version | `4.6.7f1` |
 | Installer     | `N/A` |
 | MD5           | `N/A` |
 
