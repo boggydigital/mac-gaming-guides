@@ -9,6 +9,7 @@ guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/
 - [Desktop Dungeons Enhanced Edition](#desktop-dungeons-enhanced-edition)
 - [Dungeon of the Endless](#dungeon-of-the-endless)
 - [else Heart.Break()](#else-heartbreak)
+- [FORCED SHOWDOWN](#forced-showdown)
 - [Hatoful Boyfriend](#hatoful-boyfriend)
 - [I Am Bread](#i-am-bread)
 - [Semblance](#semblance)
@@ -21,6 +22,7 @@ guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/
 
 Games we couldn't manage to get running:
 
+- [HuniePop](#huniepop)
 - [Oddworld: New ’n’ Tasty](#oddworld-new-n-tasty)
 - [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
 - [Violett Remastered](#violett-remastered)
@@ -67,6 +69,20 @@ solve it, let us know.
 | Unity version | `4.7.0f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.7.0.dmg` |
 | MD5           | `9c202226c7846bfe97366d4d4638aef8`                           |
+
+# FORCED SHOWDOWN
+
+NOTE: Unity Editor macOS 5.3.4p6
+linked [here](https://unity.com/releases/editor/patch-releases/5.3.4p6) doesn't contain macOS
+playback engine. That engine comes
+with [Mac Build Support](https://download.unity3d.com/download_unity/9eb825cf2ca3/MacEditorTargetInstaller/UnitySetup-Mac-Support-for-Editor-5.3.4p6.pkg).
+Unpacking process is the same and playback engine files location is the same as in the editor.
+
+|               |                                                                                                                                   |
+|---------------|:----------------------------------------------------------------------------------------------------------------------------------|
+| Unity version | `5.3.4p6`                                                                                                                         |
+| Installer     | `https://download.unity3d.com/download_unity/9eb825cf2ca3/MacEditorTargetInstaller/UnitySetup-Mac-Support-for-Editor-5.3.4p6.pkg` |
+| MD5           | `fa5fc3b788965fd1b6d4597098314a9e`                                                                                                |
 
 # Hatoful Boyfriend
 
@@ -142,6 +158,16 @@ solve it, let us know.
 
 # Games that don't work currently
 
+## HuniePop
+
+The game crashes on start. CSteamworks.bundle seems to contain both x86 and x86_64 binaries.
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `4.2.2f1`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
+| MD5           | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
+
 ## Oddworld: New ’n’ Tasty
 
 Log output:
@@ -197,12 +223,7 @@ Below is a list of games that list Linux version, but no macOS version (which mi
 app or might be developer just not releasing macOS version) on GOG.com along with a game ID - will
 be used as a TODO to validate and polish the process further:
 
-- 1851072646 Please Fix The Road
-- 1183022406 Anima: Gate of Memories
-- 1988363275 Encased: A Sci-Fi Post-Apocalyptic RPG
 - 1443428641 HuniePop
-- 1411626324 Tower of Time
-- 1453126104 FORCED SHOWDOWN
 - 1207664303 Sir, You Are Being Hunted
 - 1440407371 Big Pharma
 - 1856044899 Lost Sea
