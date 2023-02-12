@@ -223,7 +223,6 @@ Below is a list of games that list Linux version, but no macOS version (which mi
 app or might be developer just not releasing macOS version) on GOG.com along with a game ID - will
 be used as a TODO to validate and polish the process further:
 
-- 1443428641 HuniePop
 - 1207664303 Sir, You Are Being Hunted
 - 1440407371 Big Pharma
 - 1856044899 Lost Sea
