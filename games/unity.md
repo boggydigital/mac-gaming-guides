@@ -51,13 +51,14 @@ Games we couldn't manage to get running:
 
 # Dungeon of the Endless
 
-NOTE: This game does not have audio due to some problems with fmodex libraries, if you find a way to solve it, let us know.
+NOTE: This game does not have audio due to some problems with fmodex libraries, if you find a way to
+solve it, let us know.
 
-|               |                                                              |
-|---------------|:-------------------------------------------------------------|
-| Unity version | `5.0.3p3`                                                    |
-| Installer     | `N/A`                                                        |
-| MD5           | `N/A`                                                        |
+|               |                                                                                                 |
+|---------------|:------------------------------------------------------------------------------------------------|
+| Unity version | `5.0.3p3`                                                                                       |
+| Installer     | `https://download.unity3d.com/download_unity/70d53b55896f/MacEditorInstaller/Unity-5.0.3p3.pkg` |
+| MD5           | `33ce45db28ea625b4b4b1dfbc7581fd8`                                                              |
 
 # else Heart.Break()
 
@@ -77,19 +78,19 @@ NOTE: This game does not have audio due to some problems with fmodex libraries, 
 
 # I Am Bread
 
-|               |                                                              |
-|---------------|:-------------------------------------------------------------|
-| Unity version | `5.0.2f1`                                                    |
-| Installer     | `N/A`                                                        |
-| MD5           | `N/A`                                                        |
+|               |                                                                                                |
+|---------------|:-----------------------------------------------------------------------------------------------|
+| Unity version | `5.0.2f1`                                                                                      |
+| Installer     | `http://download.unity3d.com/download_unity/0b02744d4013/MacEditorInstaller/Unity-5.0.2f1.pkg` |
+| MD5           | `a13722cb6058adf7eee88d1e3dcc86fc`                                                             |
 
 # Semblance
 
-|               |                                                              |
-|---------------|:-------------------------------------------------------------|
-| Unity version | `5.6.2p4`                                                    |
-| Installer     | `N/A` |
-| MD5           | `N/A`                                                        |
+|               |                                                                                                 |
+|---------------|:------------------------------------------------------------------------------------------------|
+| Unity version | `5.6.2p4`                                                                                       |
+| Installer     | `https://download.unity3d.com/download_unity/35c1064e76f5/MacEditorInstaller/Unity-5.6.2p4.pkg` |
+| MD5           | `ddc87dada905545a7f1046d4bc44ea4b`                                                              |
 
 # Shadowrun: Dragonfall - Director's Cut
 
@@ -145,10 +146,12 @@ NOTE: This game does not have audio due to some problems with fmodex libraries, 
 
 Log output:
 
-The file '/Applications/NNT.app/Contents/Data/mainData' is corrupted! Remove it and launch unity again!
+The file '/Applications/NNT.app/Contents/Data/mainData' is corrupted! Remove it and launch unity
+again!
 [Position out of bounds! 778928187 > 168480]
 (Filename:  Line: 269)
-The file '/Applications/NNT.app/Contents/Data/mainData' is corrupted! Remove it and launch unity again!
+The file '/Applications/NNT.app/Contents/Data/mainData' is corrupted! Remove it and launch unity
+again!
 [Position out of bounds! 778928187 > 4336]
 (Filename:  Line: 276)
 
@@ -177,13 +180,16 @@ NOTE: Copying over Windows version files doesn't resolve that issue
 
 ## Violett Remastered
 
-Thanks [M0REKZ](https://github.com/M0REKZ) for confirming that the game ships 32-bit `SteamworksNative.bundle` and doesn't start due to that. See [Checking if the game doesn't run due to plugin architecture mismatch](../common/unity-32-to-64.md#checking-if-the-game-doesnt-run-due-to-plugin-architecture-mismatch) for more details.
+Thanks [M0REKZ](https://github.com/M0REKZ) for confirming that the game ships
+32-bit `SteamworksNative.bundle` and doesn't start due to that.
+See [Checking if the game doesn't run due to plugin architecture mismatch](../common/unity-32-to-64.md#checking-if-the-game-doesnt-run-due-to-plugin-architecture-mismatch)
+for more details.
 
-|               |       |
-|---------------|:------|
-| Unity version | `4.6.7f1` |
-| Installer     | `N/A` |
-| MD5           | `N/A` |
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `4.6.7f1`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.6.7.dmg` |
+| MD5           | `e1c6410d75542d157f85576feeafe5fe`                           |
 
 # TODO
 
