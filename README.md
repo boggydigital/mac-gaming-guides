@@ -17,6 +17,7 @@ Happy gaming!
 - [How to get game data from Epic Games](common/epic-games.md)
 - [How to get game data from GOG.com](common/gog.md)
 - [Updating 32-bit Unity games to run on 64-bit macOS](common/unity-32-to-64.md)
+- [Disable GPU skinning for Unity 2019+ games that are missing models in CrossOver](common/unity-disable-gpu-skinning.md)
 
 ## Source-ports guides
 
