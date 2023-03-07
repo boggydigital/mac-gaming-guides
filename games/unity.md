@@ -30,7 +30,9 @@ Games we couldn't manage to get running:
 - [The Last Tinker: City of Colors](#the-last-tinker-city-of-colors)
 - [Violett Remastered](#violett-remastered)
 
-# Breach & Clear
+# Games actually running
+
+#### Breach & Clear
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
@@ -38,7 +40,7 @@ Games we couldn't manage to get running:
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.6.4.dmg` |
 | MD5           | `a324073f851d6877a845afe4ea6cbb24`                           |
 
-# Chaos Reborn
+#### Chaos Reborn
 
 |               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
@@ -46,7 +48,7 @@ Games we couldn't manage to get running:
 | Installer     | `https://download.unity3d.com/download_unity/497a0f351392/MacEditorInstaller/Unity-5.6.0f3.pkg` |
 | MD5           | `022c9ec8a3b4e187a2deea60a289fba7`                                                              |
 
-# Desktop Dungeons Enhanced Edition
+#### Desktop Dungeons Enhanced Edition
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
@@ -54,7 +56,7 @@ Games we couldn't manage to get running:
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.6.4.dmg` |
 | MD5           | `a324073f851d6877a845afe4ea6cbb24`                           |
 
-# Dungeon of the Endless
+#### Dungeon of the Endless
 
 NOTE: This game does not have audio due to some problems with fmodex libraries, if you find a way to
 solve it, let us know.
@@ -65,7 +67,7 @@ solve it, let us know.
 | Installer     | `https://download.unity3d.com/download_unity/70d53b55896f/MacEditorInstaller/Unity-5.0.3p3.pkg` |
 | MD5           | `33ce45db28ea625b4b4b1dfbc7581fd8`                                                              |
 
-# else Heart.Break()
+#### else Heart.Break()
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
@@ -73,7 +75,7 @@ solve it, let us know.
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.7.0.dmg` |
 | MD5           | `9c202226c7846bfe97366d4d4638aef8`                           |
 
-# Flow:The Sliding
+#### Flow:The Sliding
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
@@ -81,7 +83,7 @@ solve it, let us know.
 | Installer     | `https://download.unity3d.com/download_unity/2860b30f0b54/MacEditorInstaller/Unity-5.6.1f1.pkg` |
 | MD5           | `N/A`                           |
 
-# FORCED SHOWDOWN
+#### FORCED SHOWDOWN
 
 NOTE: Unity Editor macOS 5.3.4p6
 linked [here](https://unity.com/releases/editor/patch-releases/5.3.4p6) doesn't contain macOS
@@ -95,7 +97,7 @@ Unpacking process is the same and playback engine files location is the same as 
 | Installer     | `https://download.unity3d.com/download_unity/9eb825cf2ca3/MacEditorTargetInstaller/UnitySetup-Mac-Support-for-Editor-5.3.4p6.pkg` |
 | MD5           | `fa5fc3b788965fd1b6d4597098314a9e`                                                                                                |
 
-# Hatoful Boyfriend
+#### Hatoful Boyfriend
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
@@ -103,7 +105,7 @@ Unpacking process is the same and playback engine files location is the same as 
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.5.3.dmg` |
 | MD5           | `2bbec655209e1c757189c3c3d507b57e`                           |
 
-# I Am Bread
+#### I Am Bread
 
 |               |                                                                                                |
 |---------------|:-----------------------------------------------------------------------------------------------|
@@ -111,7 +113,7 @@ Unpacking process is the same and playback engine files location is the same as 
 | Installer     | `http://download.unity3d.com/download_unity/0b02744d4013/MacEditorInstaller/Unity-5.0.2f1.pkg` |
 | MD5           | `a13722cb6058adf7eee88d1e3dcc86fc`                                                             |
 
-# Semblance
+#### Semblance
 
 |               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
@@ -119,7 +121,7 @@ Unpacking process is the same and playback engine files location is the same as 
 | Installer     | `https://download.unity3d.com/download_unity/35c1064e76f5/MacEditorInstaller/Unity-5.6.2p4.pkg` |
 | MD5           | `ddc87dada905545a7f1046d4bc44ea4b`                                                              |
 
-# Shadowrun: Dragonfall - Director's Cut
+#### Shadowrun: Dragonfall - Director's Cut
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
@@ -127,7 +129,7 @@ Unpacking process is the same and playback engine files location is the same as 
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.3.4.dmg` |
 | MD5           | `244491f7589fd12d519e2cfdf7943765`                           |
 
-# Shadowrun Hong Kong - Extended Edition
+#### Shadowrun Hong Kong - Extended Edition
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
@@ -135,7 +137,7 @@ Unpacking process is the same and playback engine files location is the same as 
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.6.2.dmg` |
 | MD5           | `16e4a4a0b583f143e3a256ff7160e9c9`                           |
 
-# Shadowrun: Returns
+#### Shadowrun: Returns
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
@@ -143,7 +145,7 @@ Unpacking process is the same and playback engine files location is the same as 
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
 | MD5           | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
 
-# Star Vikings Forever
+#### Star Vikings Forever
 
 |               |                                                                                                    |
 |---------------|:---------------------------------------------------------------------------------------------------|
@@ -151,7 +153,7 @@ Unpacking process is the same and playback engine files location is the same as 
 | Installer     | `https://download.unity3d.com/download_unity/9758a36cfaa6/MacEditorInstaller/Unity-2017.1.5f1.pkg` |
 | MD5           | `1de0b7d9f705dbd0eab65cbf2cc693ee`                                                                 |
 
-# The 25th Ward: The Silver Case
+#### The 25th Ward: The Silver Case
 
 |               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
@@ -159,7 +161,7 @@ Unpacking process is the same and playback engine files location is the same as 
 | Installer     | `https://download.unity3d.com/download_unity/72f24c04957f/MacEditorInstaller/Unity-5.6.4p4.pkg` |
 | MD5           | `a4e78561ea25c968e064bd6ac3fa6ca7`                                                              |
 
-# The Silver Case
+#### The Silver Case
 
 |               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
@@ -169,7 +171,7 @@ Unpacking process is the same and playback engine files location is the same as 
 
 # Games that don't work currently
 
-## HuniePop
+#### HuniePop
 
 The game crashes on start. CSteamworks.bundle seems to contain both x86 and x86_64 binaries.
 
@@ -179,7 +181,7 @@ The game crashes on start. CSteamworks.bundle seems to contain both x86 and x86_
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
 | MD5           | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
 
-## Jagged Alliance - Back In Action
+#### Jagged Alliance - Back In Action
 
 The game loads Main Menu even with the 32-bit SteamworksNative Plugin, however, game crashes if you start a level, things like this will appear in log file:
 
@@ -205,7 +207,7 @@ Ending with some lines of:
 | Installer     | `https://download.unity3d.com/download_unity/unity-4.5.0.dmg` |
 | MD5           | `N/A`                           |
 
-## Oddworld: New ’n’ Tasty
+#### Oddworld: New ’n’ Tasty
 
 Log output:
 
@@ -224,7 +226,7 @@ again!
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.3.4.dmg` |
 | MD5           | `244491f7589fd12d519e2cfdf7943765`                           |
 
-## Shadow Tactics: Blades of the Shogun
+#### Shadow Tactics: Blades of the Shogun
 
 Log output:
 
@@ -241,7 +243,7 @@ NOTE: Copying over Windows version files doesn't resolve that issue
 | Installer     | `https://download.unity3d.com/download_unity/5a3967d8c55d/MacEditorInstaller/Unity-5.4.4f1.pkg` |
 | MD5           | `15beb632f08b095531a8d1a6a680eeae`                                                              |
 
-## The Last Tinker: City of Colors
+#### The Last Tinker: City of Colors
 
 The Steam Version actually have _3_ 32-bit Plugins (RenderingPlugin, steamLib and SteamworksNative), Game crashes on start.
 
@@ -258,7 +260,7 @@ Log ends with:
 | Installer     | `https://download.unity3d.com/download_unity/unity-4.3.3.dmg` |
 | MD5           | `N/A`                           |
 
-## Violett Remastered
+#### Violett Remastered
 
 Thanks [M0REKZ](https://github.com/M0REKZ) for confirming that the game ships
 32-bit `SteamworksNative.bundle` and doesn't start due to that.
