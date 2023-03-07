@@ -9,7 +9,7 @@ guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/
 - [Desktop Dungeons Enhanced Edition](#desktop-dungeons-enhanced-edition)
 - [Dungeon of the Endless](#dungeon-of-the-endless)
 - [else Heart.Break()](#else-heartbreak)
-- [Flow:The Sliding](#flow:the-sliding)
+- [Flow:The Sliding](#flowthe-sliding)
 - [FORCED SHOWDOWN](#forced-showdown)
 - [Hatoful Boyfriend](#hatoful-boyfriend)
 - [I Am Bread](#i-am-bread)
@@ -24,10 +24,10 @@ guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/
 Games we couldn't manage to get running:
 
 - [HuniePop](#huniepop)
-- [Jagged Alliance - Back in Action](jagged-alliance---back-in-action)
+- [Jagged Alliance - Back in Action](jagged-alliance-back-in-action)
 - [Oddworld: New ’n’ Tasty](#oddworld-new-n-tasty)
 - [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
-- [The Last Tinker: City of Colors](#the-last-tinker:-city-of-colors)
+- [The Last Tinker: City of Colors](#the-last-tinker-city-of-colors)
 - [Violett Remastered](#violett-remastered)
 
 # Breach & Clear
