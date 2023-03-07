@@ -9,6 +9,7 @@ guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/
 - [Desktop Dungeons Enhanced Edition](#desktop-dungeons-enhanced-edition)
 - [Dungeon of the Endless](#dungeon-of-the-endless)
 - [else Heart.Break()](#else-heartbreak)
+- [Flow:The Sliding](#flow:the-sliding)
 - [FORCED SHOWDOWN](#forced-showdown)
 - [Hatoful Boyfriend](#hatoful-boyfriend)
 - [I Am Bread](#i-am-bread)
@@ -23,8 +24,10 @@ guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/
 Games we couldn't manage to get running:
 
 - [HuniePop](#huniepop)
+- [Jagged Alliance - Back in Action](jagged-alliance---back-in-action)
 - [Oddworld: New ’n’ Tasty](#oddworld-new-n-tasty)
 - [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
+- [The Last Tinker: City of Colors](#the-last-tinker:-city-of-colors)
 - [Violett Remastered](#violett-remastered)
 
 # Breach & Clear
@@ -69,6 +72,14 @@ solve it, let us know.
 | Unity version | `4.7.0f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.7.0.dmg` |
 | MD5           | `9c202226c7846bfe97366d4d4638aef8`                           |
+
+# Flow:The Sliding
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `5.6.1f1`                                                    |
+| Installer     | `https://download.unity3d.com/download_unity/2860b30f0b54/MacEditorInstaller/Unity-5.6.1f1.pkg` |
+| MD5           | `N/A`                           |
 
 # FORCED SHOWDOWN
 
@@ -168,6 +179,32 @@ The game crashes on start. CSteamworks.bundle seems to contain both x86 and x86_
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
 | MD5           | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
 
+## Jagged Alliance - Back In Action
+
+The game loads Main Menu even with the 32-bit SteamworksNative Plugin, however, game crashes if you start a level, things like this will appear in log file:
+
+`Failed to Init the Steam Interface!`
+
+`The referenced script on this Behaviour is missing!`
+
+`A script behaviour has a different serialization layout when loading. (Read 24 bytes but expected 132 bytes)`
+`Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts?`
+
+Ending with some lines of:
+
+`Receiving unhandled NULL exception`
+`Obtained 23 stack frames.`
+`#0  0x0000020f507000 in (null)`
+`#1  0x0000010b4e5757 in mono_jit_runtime_invoke`
+`#2  0x000001.. etc`
+
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `4.5.0f6`                                                    |
+| Installer     | `https://download.unity3d.com/download_unity/unity-4.5.0.dmg` |
+| MD5           | `N/A`                           |
+
 ## Oddworld: New ’n’ Tasty
 
 Log output:
@@ -203,6 +240,23 @@ NOTE: Copying over Windows version files doesn't resolve that issue
 | Unity version | `5.4.4f1`                                                                                       |
 | Installer     | `https://download.unity3d.com/download_unity/5a3967d8c55d/MacEditorInstaller/Unity-5.4.4f1.pkg` |
 | MD5           | `15beb632f08b095531a8d1a6a680eeae`                                                              |
+
+## The Last Tinker: City of Colors
+
+The Steam Version actually have _3_ 32-bit Plugins (RenderingPlugin, steamLib and SteamworksNative), Game crashes on start.
+
+Log ends with:
+
+`(Filename: /Applications/buildAgent/work/d3d49558e4d408f4/artifacts/MacStandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)`
+
+`êœyêœyêœyêœyêœyReceiving unhandled NULL exception`
+`Receiving unhandled NULL exception`
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `4.3.3f1`                                                    |
+| Installer     | `https://download.unity3d.com/download_unity/unity-4.3.3.dmg` |
+| MD5           | `N/A`                           |
 
 ## Violett Remastered
 

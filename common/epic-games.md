@@ -1,6 +1,8 @@
 How to get game data from Epic Games
 ===============================
 
+(Guide by [M0REKZ](https://github.com/M0REKZ), using the Steam one as Base)
+
 ## Prerequisites
 
 1. Some level of experience with macOS [Terminal.app](https://support.apple.com/guide/terminal/welcome/mac);
