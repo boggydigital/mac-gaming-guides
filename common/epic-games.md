@@ -1,7 +1,7 @@
 How to get game data from Epic Games
 ===============================
 
-(Guide by [M0REKZ](https://github.com/M0REKZ), using the Steam one as Base)
+(Guide originally made by [M0REKZ](https://github.com/M0REKZ), using the Steam one as Base)
 
 ## Prerequisites
 
