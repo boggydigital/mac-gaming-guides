@@ -30,7 +30,7 @@ Games we couldn't manage to get running:
 - [The Last Tinker: City of Colors](#the-last-tinker-city-of-colors)
 - [Violett Remastered](#violett-remastered)
 
-# Games actually running
+# Games confirmed to work
 
 ## Breach & Clear
 
