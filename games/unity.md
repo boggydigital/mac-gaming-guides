@@ -32,7 +32,7 @@ Games we couldn't manage to get running:
 - [The Last Tinker: City of Colors](#the-last-tinker-city-of-colors)
 - [Violett Remastered](#violett-remastered)
 
-[Games made below 4.2 that cant be updated](#games-made-below-42-that-cant-be-updated)
+[Games made below 4.2 that cant be updated](#games-below-unity-42-that-cant-be-updated)
 
 
 # Games confirmed to work
