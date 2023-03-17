@@ -104,6 +104,16 @@ In case you've got a `.pkg` Unity installer - you can use `pkgutil` to extract t
 - Rename `Payload` -> `Payload.zip` and confirm that you want to add `.zip` extension
 - Unpack `Payload.zip` and observe a new folder containing `Unity.app` (e.g. `Unity`/`Unity.app`)
 
+Otherwise, if for any reason you got a windows installer (`.exe`), you may need a tool like 7-zip to extract its content
+
+Example with 7-zip:
+
+- Start [`Terminal.app`](https://support.apple.com/guide/terminal/welcome/mac)
+- if you haven't done it yet, you can install 7-zip using [Homebrew](https://brew.sh) with `brew install sevenzip`
+- Navigate to the location of the installer (e.g. `cd ~/Downloads`)
+- Create a new Folder `mkdir UnityInstallerDir`
+- Run `7zz x <path-to-windows-unity-installer> -o ./UnityInstallerDir` (You may replace "UnityInstallerDir" with the name of the folder you created)
+
 ### Get standalone playback engine
 
 Regardless of how you've got `Unity`/`Unity.app` - either by installing or extracting:
