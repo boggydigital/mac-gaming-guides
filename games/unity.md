@@ -4,6 +4,7 @@ Unity games player versions
 List of games verified working after updating following the
 guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/unity-32-to-64.md):
 
+- [Astervoid2000](#astervoid2000)
 - [Breach & Clear](#breach--clear)
 - [Chaos Reborn](#chaos-reborn)
 - [Desktop Dungeons Enhanced Edition](#desktop-dungeons-enhanced-edition)
@@ -32,7 +33,9 @@ Games we couldn't manage to get running:
 - [Type:Rider](#typerider)
 - [Violett Remastered](#violett-remastered)
 
+
 [Games made below 4.2 that can not be updated](#games-made-below-42-that-can-not-be-updated)
+
 
 
 # Games confirmed to work
