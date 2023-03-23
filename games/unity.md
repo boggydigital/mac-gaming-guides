@@ -34,7 +34,7 @@ Games we couldn't manage to get running:
 - [Violett Remastered](#violett-remastered)
 
 
-[Games made below 4.2 that can not be updated](#games-made-below-42-that-can-not-be-updated)
+[Games made below Unity 4.2 that can not be updated](#games-below-unity-42-that-can-not-be-updated)
 
 
 
@@ -343,7 +343,7 @@ for more details.
 | Installer MD5 | `e1c6410d75542d157f85576feeafe5fe`                           |
 | Verified by   | M0REKZ (Steam)                                               |
 
-# Games below unity 4.2 that can not be updated
+# Games below Unity 4.2 that can not be updated
 
 Unity 64-Bits Support was added at version 4.2, due to that, the following games actually can not be updated using this method:
 
