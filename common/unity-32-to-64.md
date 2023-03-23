@@ -39,7 +39,16 @@ NOTE: if a game is a `.pkg` installer, most likely, you don't need to do any of 
 
 ## Determine Unity version
 
-### Method 1: Using Info.plist
+### Method 1: Checking App Info
+
+- Navigate to the folder where the game is installed
+- Right-Click the App and select Get Info (Or also Click the app only one time and press Command + I in your keyboard)
+- A window will show up with the info for the Application, including Unity player version
+- Optionally, instead you can Click the app one time and then press Space, that will show you Information about the app, including Unity Player version.
+
+### Method 2: Checking Info.plist
+
+If for some reason the System is not showing app version, you can try to Check Info.plist file.
 
 - Navigate to the folder where the game is installed
 - Locate the game icon at this new location and Right-click / Ctrl+click, them select `Show Package Contents`
@@ -47,7 +56,9 @@ NOTE: if a game is a `.pkg` installer, most likely, you don't need to do any of 
 - Look for the string that starts with: `Unity Player version X.Y.Z`, for example: `Unity Player version 5.6.4p4 (72f24c04957f). (c) 2017 Unity Technologies ApS. All rights reserved.`
 - That version is what we need, in the example above that's `5.6.4p4` (NOTE: Unity added 64-bit support at version 4.2, so games before that can't be updated)
 
-### Method 2: Using level0 file
+### Method 3: Checking level0 file
+
+In case that Unity Version is not listed at Info.Plist, you could try checking the `level0` file.
 
 - Start [`Terminal.app`](https://support.apple.com/guide/terminal/welcome/mac)
 - Navigate to game `Data` folder, e.g. `cd /Applications/<UnityGame>/Contents/Resources/Data`
@@ -101,8 +112,9 @@ In case you've got a `.pkg` Unity installer - you can use `pkgutil` to extract t
 - Navigate to the location of the installer (e.g. `cd ~/Downloads`)
 - Run `pkgutil --expand Unity-<version>.pkg ./unity` (e.g. `pkgutil --expand Unity-5.6.4f1.pkg ./unity`)
 - Using `Finder`, navigate to the folder you've extracted it to (e.g. `~/Downloads`/`unity`) and look for the `Payload` file (e.g. `Unity.pkg.tmp`/`Payload`)
-- Rename `Payload` -> `Payload.zip` and confirm that you want to add `.zip` extension
-- Unpack `Payload.zip` and observe a new folder containing `Unity.app` (e.g. `Unity`/`Unity.app`)
+    - In some cases you will find a package named `Unity.pkg` inside, but to solve this you can just do Right-Click and select `Show Package Contents`
+- Actually the `Payload` file is a zip, so you can Right-Click it and select `Open With -> Archive Utility` to unpack it (or rename it to `Payload.zip`)
+- A new folder containing `Unity.app` will appear (e.g. `Unity`/`Unity.app`)
 
 Otherwise, if for any reason you got a windows installer (`.exe`), you may need a tool like 7-zip to extract its content
 
@@ -113,6 +125,7 @@ Example with 7-zip:
 - Navigate to the location of the installer (e.g. `cd ~/Downloads`)
 - Create a new Folder `mkdir UnityInstallerDir`
 - Run `7zz x <path-to-windows-unity-installer> -o ./UnityInstallerDir` (You may replace "UnityInstallerDir" with the name of the folder you created)
+- Due to this is a Windows installer, the Playback Engine location would be different from the Mac Installer, so maybe you will need to search it.
 
 ### Get standalone playback engine
 
