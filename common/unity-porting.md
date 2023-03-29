@@ -3,20 +3,22 @@ How to port Windows, Linux and 32-bits macOS Unity games to run on 64-bits macOS
 
 These guides will teach you how to run *Windows, Linux and even 32-bits macOS Games that are made in Unity* on macOS Catalina or above.
 
-- [From 32-bits to 64-bits macOS](#from-32-bits-to-64-bits-macos)
--   [Download and install the game](#download-and-install-the-game)
--   [Determine Unity version](#determine-unity-version)
--   [Download Unity](#download-unity)
--   [Prepare standalone player files](#prepare-standalone-player-files)
--   [Update the game](#update-and-run-the-game)
+
+- [From 32-bits to 64-bits macOS](#from-32-bits-to-64-bits-macos) 
+- &nbsp;&nbsp;&nbsp;[Download and install the game](#download-and-install-the-game)
+- &nbsp;&nbsp;&nbsp;[Determine Unity version](#determine-unity-version)
+- &nbsp;&nbsp;&nbsp;[Download Unity](#download-unity)
+- &nbsp;&nbsp;&nbsp;[Prepare standalone player files](#prepare-standalone-player-files)
+- &nbsp;&nbsp;&nbsp;[Update the game](#update-and-run-the-game)
 - [From Windows/linux to macOS](#from-windowslinux-to-macos)
--   [Getting game data](#getting-game-data)
--   [Common steps with the 32-bits to 64-bits guide](#common-steps-with-the-32-bits-to-64-bits-guide)
--   [Prepare needed Unity Player](#prepare-needed-unity-player)
--       [Old Unity versions](#preparing-unity-player-(old-unity-versions))
--       [Modern Unity versions](#preparing-unity-player-(modern-unity-versions))
--   [Porting the game](#porting-and-running-the-game)
+- &nbsp;&nbsp;&nbsp;[Getting game data](#getting-game-data)
+- &nbsp;&nbsp;&nbsp;[Common steps with the 32-bits to 64-bits guide](#common-steps-with-the-32-bits-to-64-bits-guide)
+- &nbsp;&nbsp;&nbsp;[Preparing needed Unity Player](#preparing-needed-unity-player)
+- &nbsp;&nbsp;&nbsp;[Old Unity versions](#preparing-unity-player-old-unity-versions)
+- &nbsp;&nbsp;&nbsp;[Modern Unity versions](#preparing-unity-player-modern-unity-versions)
+- &nbsp;&nbsp;&nbsp;[Porting the game](#porting-and-running-the-game)
 - [Troubleshoot common problems](#troubleshoot-common-problems)
+
 
 # From 32-bits to 64-bits macOS
 
@@ -227,7 +229,7 @@ At some time Unity Player File structure changed a little, so this section will 
 
 ### Preparing Unity Player (Old Unity versions)
 
-If you dont see a `Source` Folder at here, you downloaded an old Unity version, otherwise, go to [Preparing Unity Player (Modern Unity versions)](#preparing-unity-player-(modern-unity-versions))
+If you dont see a `Source` Folder at here, you downloaded an old Unity version, otherwise, go to [Preparing Unity Player (Modern Unity versions)](#preparing-unity-player-modern-unity-versions)
 
 - Navigate to `Variations` Folder
 - Carefully observe folder names in that location:
@@ -245,9 +247,9 @@ Now, assuming that you actually [have the game data](#getting-game-data):
 
 Now we can start porting the game, go to [Porting and running the game](#porting-and-running-the-game)
 
-### Preparing Unity Player (Modern Unity version)
+### Preparing Unity Player (Modern Unity versions)
 
-In case you find a `Source` folder Inside, you downloaded a modern Unity version, otherwise go to [Preparing Unity Player (Old Unity versions)](#preparing-unity-player-(old-unity-versions))
+In case you find a `Source` folder Inside, you downloaded a modern Unity version, otherwise go to [Preparing Unity Player (Old Unity versions)](#preparing-unity-player-old-unity-versions)
 
 Modern Unity Player is a little bit more complicated than the old ones, but actually you can get some games working, also, in case that the game is made on `Unity 2020.2 Alpha 21` or above, it *could run native on apple silicon*. (NOTE: due to at `2020.2 alpha 21` Apple Silicon support was very initial, you must expect a LOT of bugs, in that case you better try both Intel 64 Bits/Apple Silicon Players)
 
@@ -287,7 +289,7 @@ Now, assuming that you actually [have the game data](#getting-game-data):
 Now we will start copying game data to inside the UnityPlayer App:
 
 - Copy Game Data Folder (`gamename_Data`) to `UnityPlayer.app`/`Contents`/`Resources`/ and rename it to `Data`
-    - NOTE: On *VERY* old unity versions this folder must be inside `Contents`
+    - NOTE: On *VERY* old unity versions this folder must be inside `Contents`
 - Navigate to the `Data` Folder and copy the `Plugins` Folder to `Contents`
     - IMPORTANT NOTE: You must also get mac version of the plugins inside or the game wont work, see [Missing libraries (`Fallback handler could not load library`)](#missing-libraries-(fallback-handler-could-not-load-library))
 - Also, *inside of the `Data` folder* look for `Resources`, Navigate *inside* it, and copy everything into `UnityPlayer.app`/`Contents`/`Resources`/
@@ -340,7 +342,7 @@ Verify that the prepared version of the player is the correct one:
 
 In some cases you should check Player log file and see if the libraries are in the wrong location, in that case move the libraries to the listed path.
 
-`In other cases` the library is missing from anywhere at the game data and you must get it from the internet or from another Unity game, if possible, preferably you should get the same version that came with the game, also [make sure that the plugin have the same architecture that the Player being used](checking-if-the-game-doesnt-run-due-to-plugin-architecture-mismatch)
+`In other cases` the library is missing from anywhere at the game data and you must get it from the internet or from another Unity game, if possible, preferably you should get the same version that came with the game, also [make sure that the plugin have the same architecture that the Player being used](#checking-if-the-game-doesnt-run-due-to-plugin-architecture-mismatch), in case that the plugin is not available on the needed architecture, you could try to compile it.
 
 ## Checking if the game doesn't run due to plugin architecture mismatch
 
