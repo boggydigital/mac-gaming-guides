@@ -14,8 +14,8 @@ These guides will teach you how to run *Windows, Linux and even 32-bits macOS Ga
 - &nbsp;&nbsp;&nbsp;[Getting game data](#getting-game-data)
 - &nbsp;&nbsp;&nbsp;[Common steps with the 32-bits to 64-bits guide](#common-steps-with-the-32-bits-to-64-bits-guide)
 - &nbsp;&nbsp;&nbsp;[Preparing needed Unity Player](#preparing-needed-unity-player)
-- &nbsp;&nbsp;&nbsp;[Old Unity versions](#preparing-unity-player-old-unity-versions)
-- &nbsp;&nbsp;&nbsp;[Modern Unity versions](#preparing-unity-player-modern-unity-versions)
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Old Unity versions](#preparing-unity-player-old-unity-versions)
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Modern Unity versions](#preparing-unity-player-modern-unity-versions)
 - &nbsp;&nbsp;&nbsp;[Porting the game](#porting-and-running-the-game)
 - [Troubleshoot common problems](#troubleshoot-common-problems)
 
