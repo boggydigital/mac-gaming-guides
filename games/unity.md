@@ -2,8 +2,11 @@ Unity games player versions
 ===========================
 
 List of games verified working after updating following the
-guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/unity-32-to-64.md):
+guides [How to update 32-bits macOS Unity game to run on 64-bits macOS](../common/unity-porting.md#from-32-bits-to-64-bits-macos) and [How to port Windows/Linux Unity games to macOS](../common/unity-porting.md#from-windowslinux-to-macos)
 
+From 32-Bits to 64-Bits:
+
+- [Astervoid2000](#astervoid2000)
 - [Breach & Clear](#breach--clear)
 - [Chaos Reborn](#chaos-reborn)
 - [Desktop Dungeons Enhanced Edition](#desktop-dungeons-enhanced-edition)
@@ -17,46 +20,77 @@ guide: [How to update 32-bit macOS Unity game to run on 64-bit macOS](../common/
 - [Shadowrun: Dragonfall - Director's Cut](#shadowrun-dragonfall---directors-cut)
 - [Shadowrun Hong Kong - Extended Edition](#shadowrun-hong-kong---extended-edition)
 - [Shadowrun: Returns](#shadowrun-returns)
+- [Shiny The Firefly](#shiny-the-firefly)
 - [Star Vikings Forever](#star-vikings-forever)
 - [The 25th Ward: The Silver Case](#the-25th-ward-the-silver-case)
 - [The Silver Case](#the-silver-case)
 
+From Windows/Linux to macOS:
+
+- [Valheim](#valheim)
+
 Games we couldn't manage to get running:
+
+From 32-Bits to 64-Bits
 
 - [HuniePop](#huniepop)
 - [Jagged Alliance - Back in Action](#jagged-alliance---back-in-action)
 - [Oddworld: New ’n’ Tasty](#oddworld-new-n-tasty)
 - [Shadow Tactics: Blades of the Shogun](#shadow-tactics-blades-of-the-shogun)
 - [The Last Tinker: City of Colors](#the-last-tinker-city-of-colors)
+- [Type:Rider](#typerider)
 - [Violett Remastered](#violett-remastered)
+
+From Windows/Linux to macOS:
+
+- Template
+
+
+[Games made below Unity 4.2 that can not be updated](#games-below-unity-42-that-can-not-be-updated)
+
+
 
 # Games confirmed to work
 
-## Breach & Clear
+## From 32-Bits to 64-Bits
+
+### Astervoid2000
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `5.4.2f2`                                                    |
+| Installer     | `https://download.unity3d.com/download_unity/b7e030c65c9b/MacEditorInstaller/Unity-5.4.2f2.pkg` |
+| Installer MD5 | `d4fa6cff0aa908fe2d1c8d77fc116d5d`
+| Verified by   | M0REKZ (Steam)                                               |
+
+### Breach & Clear
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.6.4f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.6.4.dmg` |
-| MD5           | `a324073f851d6877a845afe4ea6cbb24`                           |
+| Installer MD5 | `a324073f851d6877a845afe4ea6cbb24`                           |
+| Verified by   | boggydigital                                            |
 
-## Chaos Reborn
+### Chaos Reborn
 
 |               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
 | Unity version | `5.6.0f3`                                                                                       |
 | Installer     | `https://download.unity3d.com/download_unity/497a0f351392/MacEditorInstaller/Unity-5.6.0f3.pkg` |
-| MD5           | `022c9ec8a3b4e187a2deea60a289fba7`                                                              |
+| Installer MD5 | `022c9ec8a3b4e187a2deea60a289fba7`                                                              |
+| Verified by   | boggydigital                                            |
 
-## Desktop Dungeons Enhanced Edition
+### Desktop Dungeons Enhanced Edition
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.6.4f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.6.4.dmg` |
-| MD5           | `a324073f851d6877a845afe4ea6cbb24`                           |
+| Installer MD5 | `a324073f851d6877a845afe4ea6cbb24`                           |
+| Verified by   | boggydigital                                            |
 
-## Dungeon of the Endless
+### Dungeon of the Endless
 
 NOTE: This game does not have audio due to some problems with fmodex libraries, if you find a way to
 solve it, let us know.
@@ -65,25 +99,28 @@ solve it, let us know.
 |---------------|:------------------------------------------------------------------------------------------------|
 | Unity version | `5.0.3p3`                                                                                       |
 | Installer     | `https://download.unity3d.com/download_unity/70d53b55896f/MacEditorInstaller/Unity-5.0.3p3.pkg` |
-| MD5           | `33ce45db28ea625b4b4b1dfbc7581fd8`                                                              |
+| Installer MD5 | `33ce45db28ea625b4b4b1dfbc7581fd8`                                                              |
+| Verified by   | M0REKZ (Steam)                                                                                  |
 
-## else Heart.Break()
+### else Heart.Break()
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.7.0f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.7.0.dmg` |
-| MD5           | `9c202226c7846bfe97366d4d4638aef8`                           |
+| Installer MD5 | `9c202226c7846bfe97366d4d4638aef8`                           |
+| Verified by   | boggydigital                                            |
 
-## Flow:The Sliding
+### Flow:The Sliding
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
 | Unity version | `5.6.1f1`                                                    |
 | Installer     | `https://download.unity3d.com/download_unity/2860b30f0b54/MacEditorInstaller/Unity-5.6.1f1.pkg` |
-| MD5           | `dd14e6a5a9fc4961b4072fe918f6ac97`                           |
+| Installer MD5 | `dd14e6a5a9fc4961b4072fe918f6ac97`                           |
+| Verified by   | M0REKZ (Steam)                                               |
 
-## FORCED SHOWDOWN
+### FORCED SHOWDOWN
 
 NOTE: Unity Editor macOS 5.3.4p6
 linked [here](https://unity.com/releases/editor/patch-releases/5.3.4p6) doesn't contain macOS
@@ -95,83 +132,120 @@ Unpacking process is the same and playback engine files location is the same as 
 |---------------|:----------------------------------------------------------------------------------------------------------------------------------|
 | Unity version | `5.3.4p6`                                                                                                                         |
 | Installer     | `https://download.unity3d.com/download_unity/9eb825cf2ca3/MacEditorTargetInstaller/UnitySetup-Mac-Support-for-Editor-5.3.4p6.pkg` |
-| MD5           | `fa5fc3b788965fd1b6d4597098314a9e`                                                                                                |
+| Installer MD5 | `fa5fc3b788965fd1b6d4597098314a9e`                                                                                                |
+| Verified by   | boggydigital                                            |
 
-## Hatoful Boyfriend
+### Hatoful Boyfriend
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.5.3f3`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.5.3.dmg` |
-| MD5           | `2bbec655209e1c757189c3c3d507b57e`                           |
+| Installer MD5 | `2bbec655209e1c757189c3c3d507b57e`                           |
+| Verified by   | boggydigital                                            |
 
-## I Am Bread
+### I Am Bread
 
 |               |                                                                                                |
 |---------------|:-----------------------------------------------------------------------------------------------|
 | Unity version | `5.0.2f1`                                                                                      |
 | Installer     | `http://download.unity3d.com/download_unity/0b02744d4013/MacEditorInstaller/Unity-5.0.2f1.pkg` |
-| MD5           | `a13722cb6058adf7eee88d1e3dcc86fc`                                                             |
+| Installer MD5 | `a13722cb6058adf7eee88d1e3dcc86fc`                                                             |
+| Verified by   | M0REKZ (Steam)                                                                                 |
 
-## Semblance
+### Semblance
 
 |               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
 | Unity version | `5.6.2p4`                                                                                       |
 | Installer     | `https://download.unity3d.com/download_unity/35c1064e76f5/MacEditorInstaller/Unity-5.6.2p4.pkg` |
-| MD5           | `ddc87dada905545a7f1046d4bc44ea4b`                                                              |
+| Installer MD5 | `ddc87dada905545a7f1046d4bc44ea4b`                                                              |
+| Verified by   | M0REKZ (Steam)                                                                                  |
 
-## Shadowrun: Dragonfall - Director's Cut
+### Shadowrun: Dragonfall - Director's Cut
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.3.4f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.3.4.dmg` |
-| MD5           | `244491f7589fd12d519e2cfdf7943765`                           |
+| Installer MD5 | `244491f7589fd12d519e2cfdf7943765`                           |
+| Verified by   | u/Silenced_Retard                                            |
 
-## Shadowrun Hong Kong - Extended Edition
+### Shadowrun Hong Kong - Extended Edition
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.6.2f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.6.2.dmg` |
-| MD5           | `16e4a4a0b583f143e3a256ff7160e9c9`                           |
+| Installer MD5 | `16e4a4a0b583f143e3a256ff7160e9c9`                           |
+| Verified by   | u/Silenced_Retard                                            |
 
-## Shadowrun: Returns
+### Shadowrun: Returns
 
 |               |                                                              |
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.2.2f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
-| MD5           | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
+| Installer MD5 | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
+| Verified by   | u/Silenced_Retard                                            |
 
-## Star Vikings Forever
+### Shiny The Firefly
+
+NOTE: You need to mark the options window to "Only show if Option key is pressed", otherwise game will crash, anyways, you can actually access that window with the indicated method and start the game without problems, the exact reason of the crash is unknown, but we can consider that the 32-bits SteamworksNative Plugin would be the culprit.
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `4.2.2f1`                                                    |
+| Installer     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
+| Installer MD5 | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
+| 32-bit Plugins| SteamworksNative                                             |
+| Verified by   | M0REKZ (Steam)                                               |
+
+### Star Vikings Forever
 
 |               |                                                                                                    |
 |---------------|:---------------------------------------------------------------------------------------------------|
 | Unity version | `2017.1.5f1`                                                                                       |
 | Installer     | `https://download.unity3d.com/download_unity/9758a36cfaa6/MacEditorInstaller/Unity-2017.1.5f1.pkg` |
-| MD5           | `1de0b7d9f705dbd0eab65cbf2cc693ee`                                                                 |
+| Installer MD5 | `1de0b7d9f705dbd0eab65cbf2cc693ee`                                                                 |
+| Verified by   | boggydigital                                            |
 
-## The 25th Ward: The Silver Case
+### The 25th Ward: The Silver Case
 
 |               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
 | Unity version | `5.6.4p4`                                                                                       |
 | Installer     | `https://download.unity3d.com/download_unity/72f24c04957f/MacEditorInstaller/Unity-5.6.4p4.pkg` |
-| MD5           | `a4e78561ea25c968e064bd6ac3fa6ca7`                                                              |
+| Installer MD5 | `a4e78561ea25c968e064bd6ac3fa6ca7`                                                              |
+| Verified by   | boggydigital                                            |
 
-## The Silver Case
+### The Silver Case
 
 |               |                                                                                                 |
 |---------------|:------------------------------------------------------------------------------------------------|
 | Unity version | `5.4.1p4`                                                                                       |
 | Installer     | `https://download.unity3d.com/download_unity/139dac7766f0/MacEditorInstaller/Unity-5.4.1p4.pkg` |
-| MD5           | `803ed4cfe4a38ce3d451b5c594fd6877`                                                              |
+| Installer MD5 | `803ed4cfe4a38ce3d451b5c594fd6877`                                                              |
+| Verified by   | boggydigital                                            |
 
-# Games that don't work currently
+## From Windows/Linux to macOS:
 
-## HuniePop
+### Valheim
+
+The user [timkurvers](https://github.com/timkurvers) developed a installer script to do the whole porting process, he even included a demonstration video thatt can be found on the link below
+
+|               |                                                                                                 |
+|---------------|:------------------------------------------------------------------------------------------------|
+| Unity version | `2020.3.45f1`                                                                                   |
+| From Platform | From Linux to Intel macOS                                                                       |
+| Installer     | [Shell script by timkurvers](https://github.com/timkurvers/valheim-macos)                       |
+| Verified by   | timkurvers (Steam)                                                                              |
+
+# Games we couldn't manage to get running
+
+## From 32-Bits to 64-Bits
+
+### HuniePop
 
 The game crashes on start. CSteamworks.bundle seems to contain both x86 and x86_64 binaries.
 
@@ -179,9 +253,10 @@ The game crashes on start. CSteamworks.bundle seems to contain both x86 and x86_
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.2.2f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
-| MD5           | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
+| Installer MD5 | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
+| Verified by   | boggydigital                                            |
 
-## Jagged Alliance - Back In Action
+### Jagged Alliance - Back In Action
 
 The game loads Main Menu even with the 32-bit SteamworksNative Plugin, however, game crashes if you start a level, things like this will appear in log file:
 
@@ -205,9 +280,11 @@ Ending with some lines of:
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.5.0f6`                                                    |
 | Installer     | `https://download.unity3d.com/download_unity/unity-4.5.0.dmg` |
-| MD5           | `81081098c29e235b6db232b3e7aaa0bd`                           |
+| Installer MD5 | `81081098c29e235b6db232b3e7aaa0bd`                           |
+| 32-bit Plugins| SteamworksNative                                             |
+| Verified by   | M0REKZ (Steam)                                               |
 
-## Oddworld: New ’n’ Tasty
+### Oddworld: New ’n’ Tasty
 
 Log output:
 
@@ -224,9 +301,10 @@ again!
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.3.4f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.3.4.dmg` |
-| MD5           | `244491f7589fd12d519e2cfdf7943765`                           |
+| Installer MD5 | `244491f7589fd12d519e2cfdf7943765`                           |
+| Verified by   | boggydigital                                            |
 
-## Shadow Tactics: Blades of the Shogun
+### Shadow Tactics: Blades of the Shogun
 
 Log output:
 
@@ -241,9 +319,23 @@ NOTE: Copying over Windows version files doesn't resolve that issue
 |---------------|:------------------------------------------------------------------------------------------------|
 | Unity version | `5.4.4f1`                                                                                       |
 | Installer     | `https://download.unity3d.com/download_unity/5a3967d8c55d/MacEditorInstaller/Unity-5.4.4f1.pkg` |
-| MD5           | `15beb632f08b095531a8d1a6a680eeae`                                                              |
+| Installer MD5 | `15beb632f08b095531a8d1a6a680eeae`                                                              |
+| Verified by   | boggydigital                                            |
 
-## The Last Tinker: City of Colors
+### Type:Rider
+
+Game ships 32-bits SteamworksNative Plugin and crashes on start due to that.
+
+|               |                                                              |
+|---------------|:-------------------------------------------------------------|
+| Unity version | `4.2.2f1`                                                    |
+| Installer     | `https://download.unity3d.com/download_unity/unity-4.2.2.dmg` |
+| Installer MD5 | `a0db05b34ea12e8d9cf64a22e7eada1b`                           |
+| 32-bit Plugins| SteamworksNative                                             |
+| Verified by   | M0REKZ (Steam)                                               |
+
+
+### The Last Tinker: City of Colors
 
 The Steam Version actually have _3_ 32-bit Plugins (RenderingPlugin, steamLib and SteamworksNative), Game crashes on start.
 
@@ -258,9 +350,11 @@ Log ends with:
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.3.3f1`                                                    |
 | Installer     | `https://download.unity3d.com/download_unity/unity-4.3.3.dmg` |
-| MD5           | `36d8c2990ae41880b69c8596a5607a54`                           |
+| Installer MD5 | `36d8c2990ae41880b69c8596a5607a54`                           |
+| 32-bit Plugins| SteamworksNative, steamLib, RenderingPlugin                  |
+| Verified by   | M0REKZ (Steam)                                               |
 
-## Violett Remastered
+### Violett Remastered
 
 Thanks [M0REKZ](https://github.com/M0REKZ) for confirming that the game ships
 32-bit `SteamworksNative.bundle` and doesn't start due to that.
@@ -271,7 +365,37 @@ for more details.
 |---------------|:-------------------------------------------------------------|
 | Unity version | `4.6.7f1`                                                    |
 | Installer     | `http://download.unity3d.com/download_unity/unity-4.6.7.dmg` |
-| MD5           | `e1c6410d75542d157f85576feeafe5fe`                           |
+| Installer MD5 | `e1c6410d75542d157f85576feeafe5fe`                           |
+| Verified by   | M0REKZ (Steam)                                               |
+
+## From Windows/Linux to macOS:
+
+### Reventure
+
+The game has Steam DRM and will launch Steam even before you can see if its truly working, Steam will try to launch the game but you will get a `Platform invalid` error, actually there is no known way to solve this, if you have ideas, let us know
+
+Would be good to try the GOG version, since that one does not have DRM
+
+Also, i used `Galaxy.bundle` Plugin from [Semblance](#semblance) since i could not find it on internet.
+
+|               |                                                                                                 |
+|---------------|:------------------------------------------------------------------------------------------------|
+| Unity version | `2019.4.20f1`                                                                                   |
+| Installer     | `https://download.unity3d.com/download_unity/6dd1c08eedfa/MacEditorTargetInstaller/UnitySetup-Mac-Mono-Support-for-Editor-2019.4.20f1.pkg` |
+| Installer MD5 | `2aca94be6b2230a087c3455b043532af`                                                              |
+| Verified by   | M0REKZ (Steam)                                                                                  |
+
+# Games below Unity 4.2 that can not be updated
+
+Unity 64-Bits Support was added at version 4.2, due to that, the following games actually can not be updated using this method:
+
+|  Game Name                                 | Unity version  |  Verified by   |
+|--------------------------------------------|:---------------|:---------------|
+| Alien Spidy                                | `3.5.6f1`      | M0REKZ (Steam) |
+| ENDLESS Space - Definitive Edition         | `4.1.5f1`      | M0REKZ (Steam) |
+| Not The Robots                             | `4.1.2f1`      | M0REKZ (Steam) |
+| Randal's Monday                            | `4.1.5f1`      | M0REKZ (Steam) |
+
 
 # TODO
 
