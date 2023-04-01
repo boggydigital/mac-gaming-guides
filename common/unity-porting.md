@@ -338,6 +338,18 @@ Verify that the prepared version of the player is the correct one:
 
 - If the output doesn't contain lines with that version - it's likely that you've got a wrong version and need to re-download the correct one: see [Determine Unity version](#determine-unity-version) and [Download Unity](#download-unity).
 
+## Problems with graphics API
+
+If the game is using an incompatible Graphics API (like DirectX11) you can try changing it to OpenGl, Vulkan, or Metal by adding one of these flags at running Unity Player:
+
+- For Metal: `-force-metal`
+
+- For OpenGl: `-force-glcore` or `-force-glcoreXY` where `XY` is the version number
+
+- For Vulkan: `-force-vulkan`
+
+For more information check [Unity Standalone Player command line arguments](https://docs.unity3d.com/Manual/PlayerCommandLineArguments.html)
+
 ## Missing libraries (`Fallback handler could not load library`)
 
 In some cases you should check Player log file and see if the libraries are in the wrong location, in that case move the libraries to the listed path.
