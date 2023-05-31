@@ -326,7 +326,7 @@ You might see: `Invalid serialized file version. File: "/Applications/<GamePacka
 Verify that the prepared version of the player is the correct one:
 
 - Start [`Terminal.app`](https://support.apple.com/guide/terminal/welcome/mac)
-- Navigate to the location of the player (e.g. `cd <path-to-the-folder-containing-Unity.app>/Contents/MacOS`)
+- Navigate to the location of the player you previously discovered above, under the path `Contents/PlaybackEngines/MacStandaloneSupport/Variations` (e.g. `cd /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/macosx64_nondevelopment_mono/UnityPlayer.app/Contents/MacOS`)
 - Run the following command: `strings UnityPlayer | grep <unity-version>`, e.g. `strings UnityPlayer | grep 4.7.0f1`
 - Observe the output:
 
