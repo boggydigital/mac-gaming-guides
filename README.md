@@ -26,6 +26,7 @@ Happy gaming!
 ## Source-ports guides
 
 - [Ion Fury](games/ion_fury.md)
+- [BUILD engine games](games/build_engine.md)
 - [Quake](games/quake.md)
 
 
