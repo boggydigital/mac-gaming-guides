@@ -1,9 +1,9 @@
-Running Ion Fury on macOS
-=========================
+Running Ion Fury on macOS, including Aftershock DLC
+===================================================
 
 This guide will help you get [Ion Fury](https://en.wikipedia.org/wiki/Ion_Fury) up and running on macOS.
 
-**Nov 26 2023**: Added [Ion Fury: Aftershock](#running-ion-fury-aftershock-on-macos) section.
+**Apr 14 2024**: Rewrote Ion Fury: Aftershock content, thanks to MacSourcePorts build now supporting it.
 
 ## Getting game data
 
@@ -19,10 +19,9 @@ To get Ion Fury game data, [download the game from GOG.com](../common/gog.md).
 
 ## Run Ion Fury on macOS
 
-To run Ion Fury on macOS you'll need one of the source ports:
+To run Ion Fury on macOS you'll need [EDuke32 from MacSourcePorts](https://macsourceports.com/sourceport/eduke32). Right now, the latest build date is `April 13, 2024` and this build supports both Ion Fury and Aftershock DLC.
 
-1. [EDuke32 from MacSourcePorts](https://macsourceports.com/sourceport/eduke32)
-    - NOTE: First-party [EDuke32 macOS builds](https://dukeworld.com/eduke32/mac/) have not been updated since Oct 09 2021 and the last build is not compatible with Ion Fury 2.0 update.
+NOTE: First-party [EDuke32 macOS builds](https://dukeworld.com/eduke32/mac/) have not been updated since Oct 09 2021 and the last build is not compatible with Ion Fury 2.0 update or Aftershock DLC.
 
 ### Using EDuke32 to play Ion Fury
 
@@ -58,27 +57,3 @@ Using /Users/{current user name}/Library/Application Support/EDuke32/ for game d
 Using /Applications/EDuke32.app/Contents/Resources/ for game data
 Using /Users/{current user name}/.config/eduke32/ for game data
 ```
-
-## Running Ion Fury: Aftershock on macOS
-
-At the moment - the only viable option to run Ion Fury: Aftershock is some sort of Windows emulation. 
-
-[CrossOver](http://codeweavers.com/crossover) or [Whisky](https://github.com/Whisky-App/Whisky) run the game just fine as long as you use software rendering. Using 32-bit rendering (Polymost) will make the game increadibly slow on macOS (see [Renderer & Color modes](#renderer--color-modes)).
-
-Running Ion Fury: Aftershock in software mode takes a bit of effort though, as the Aftershock game update specifically removed UI options to enable software rendering. Here's how to make it work:
-
-- Use a console command `setrendermode 0` in the game ([source](https://www.gog.com/forum/ion_fury/ion_fury_aftershock_without_support_for_software_mode_wtf/post2))
-
-Alternatively:
-
-- Navigate to a bottle where you've installed the game, and then to `users/crossover/AppData/Roaming/Ion Fury`
-- Open `fury.cfg`
-- Under `[Screen Setup]` change `ScreenBPP = 32` to `ScreenBPP = 8`
-- Save the file and run the game again (don't change the resolution in the starting dialog!)
-
-### Other options that might work in the future
-
-None of the options below are viable at the time of writing this guide, keeping them listed in case that changes:
-
-- [EDuke32 from MacSourcePorts](https://macsourceports.com/sourceport/eduke32) has been last updated on August 25, 2022 and doesn't support the latest Ion Fury update and Aftershock (script parsing error on launch)
-- [Official EDuke32 macOS build](https://dukeworld.com/eduke32/mac/) have not been updated since Oct 09 2021 and don't support Aftershock (or earlier Ion Fury updates)
